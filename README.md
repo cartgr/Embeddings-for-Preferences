@@ -10,37 +10,6 @@ counterfactual hard triplets.
 
 ---
 
-## Repo layout
-
-```
-.
-├── configs/                  # paths, models, eval settings
-├── src/                      # library (encoders, trainers, probes, evaluator)
-├── scripts/
-│   ├── build_paper_tables.py # writes paper_tables.tex at repo root
-│   ├── train.py              # fine-tune entry point
-│   ├── evaluate.py           # evaluation entry point
-│   ├── data/                 # ordered pipeline 01..08
-│   ├── experiments/          # paper experiments
-│   ├── plotting/             # figure + dataset-stats generators
-│   └── slurm/                # SLURM sbatch wrappers (FASRC Cannon defaults)
-├── data/                     # LFS-tracked artifacts
-│   ├── processed/eval/       # 11 human-labeled triplet datasets
-│   ├── processed/issues/     # filtered political issues
-│   ├── processed/opinions/   # LLM-generated opinions
-│   ├── processed/triplets/   # synthetic training + hard eval triplets
-│   ├── models/best/          # LoRA adapters (4 encoder families × 5 seeds)
-│   └── results/              # experiment JSONs + PSD probe weights
-├── figures/                  # generated PDFs/PNGs (Fig 2, 3, 4 + bands ablation)
-├── paper_tables.tex          # auto-generated row blocks for every paper table
-├── dataset_stats.tex         # auto-generated dataset-stats table
-├── tests/smoke_test.py       # quick sanity check
-├── Makefile                  # convenience targets
-└── pyproject.toml
-```
-
----
-
 ## Setup
 
 Requires Python 3.11+ and CUDA 12.x. Approx 20 GB of LFS artifacts.
@@ -147,7 +116,7 @@ make tables
 
 | Paper                | Generating script(s)                                    | Slurm wrapper                                | Output                                                      |
 |----------------------|---------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------|
-| Tab 1 — example      | hand-typed (illustrative anchor/match/distractor row)   | —                                            | manual                                                       |
+| Tab 1 — example      | `table1_example.py`                                     | —                                            | `data/results/table1_example.json`                           |
 | Tab 2 — main-hard    | `experiments/hard_triplet_cosine.py`                    | `hard_triplet_cosine_1k.sbatch`              | `data/results/hard_triplet_cosine_1k.json` → `paper_tables.tex` |
 | Tab 3 — cross-model  | `train.py` (×5 seeds) + `eval_normal_sweep.py`          | `cross_model_sweep.sbatch`, `eval_normal_sweep.sbatch` | `data/models/best/<slug>/seed*/results.json` → `paper_tables.tex` |
 | Tab 4 — main         | `experiments/reeval_baselines.py` + cross-model seeds   | `reeval_baselines.sbatch`                    | `data/results/per_model/base_*.json` → `paper_tables.tex`   |
@@ -165,6 +134,38 @@ make tables
 | Fig 2 — bands        | `plotting/fig2_bands.py` (GPU)                          | `bands.sbatch`                               | `figures/fig2_bands.pdf`                                    |
 | Fig 3 — rank-saturation | `plotting/fig_scorer_rank.py`                       | —                                            | `figures/fig_rank_saturation.pdf`                           |
 | Fig 4 — data-efficiency | `plotting/fig5_data_efficiency.py` + `experiments/data_efficiency.py` | `data_efficiency.sbatch`, `fig5_data_efficiency.sbatch` | `figures/fig5_data_efficiency.pdf`               |
+
+---
+
+## Repo layout
+
+```
+.
+├── configs/                  # paths, models, eval settings
+├── src/                      # library (encoders, trainers, probes, evaluator)
+├── scripts/
+│   ├── build_paper_tables.py # writes paper_tables.tex at repo root
+│   ├── table1_example.py     # single-triplet similarity demo (Tab 1)
+│   ├── train.py              # fine-tune entry point
+│   ├── evaluate.py           # evaluation entry point
+│   ├── data/                 # ordered pipeline 01..08
+│   ├── experiments/          # paper experiments
+│   ├── plotting/             # figure + dataset-stats generators
+│   └── slurm/                # SLURM sbatch wrappers (FASRC Cannon defaults)
+├── data/                     # LFS-tracked artifacts
+│   ├── processed/eval/       # 11 human-labeled triplet datasets
+│   ├── processed/issues/     # filtered political issues
+│   ├── processed/opinions/   # LLM-generated opinions
+│   ├── processed/triplets/   # synthetic training + hard eval triplets
+│   ├── models/best/          # LoRA adapters (4 encoder families × 5 seeds)
+│   └── results/              # experiment JSONs + PSD probe weights
+├── figures/                  # generated PDFs/PNGs (Fig 2, 3, 4 + bands ablation)
+├── paper_tables.tex          # auto-generated row blocks for every paper table
+├── dataset_stats.tex         # auto-generated dataset-stats table
+├── tests/smoke_test.py       # quick sanity check
+├── Makefile                  # convenience targets
+└── pyproject.toml
+```
 
 ---
 
