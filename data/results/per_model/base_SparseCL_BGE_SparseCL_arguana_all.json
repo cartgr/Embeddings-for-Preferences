@@ -1,0 +1,21 @@
+{
+  "model": "SparseCL/BGE-SparseCL-arguana",
+  "hf_id": "SparseCL/BGE-SparseCL-arguana",
+  "split": "all",
+  "formatter": "plain",
+  "metrics": {
+    "gsc_abortion_gen": 0.624113475177305,
+    "gsc_abortion_val": 0.617,
+    "gsc_chatbot_gen": 0.4266304347826087,
+    "remesh_campus_protests": 0.5915,
+    "remesh_foreign_intervention": 0.572,
+    "remesh_right_to_assemble": 0.6615,
+    "polis_15_per_hour_seattle": 0.50090661831369,
+    "polis_american_assembly_bowling_green": 0.5615,
+    "polis_brexit_consensus": 0.5745,
+    "polis_canadian_electoral_reform": 0.5265,
+    "polis_scoop_hivemind_ubi": 0.6305
+  },
+  "hard_acc": 0.052571428571428575,
+  "hard_n": 875
+}

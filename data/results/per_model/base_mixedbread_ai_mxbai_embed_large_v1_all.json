@@ -1,0 +1,21 @@
+{
+  "model": "mixedbread-ai/mxbai-embed-large-v1",
+  "hf_id": "mixedbread-ai/mxbai-embed-large-v1",
+  "split": "all",
+  "formatter": "prefix(q='Represent this sentence for searching relevant passages: ', p='')",
+  "metrics": {
+    "gsc_abortion_gen": 0.6394799054373522,
+    "gsc_abortion_val": 0.6235,
+    "gsc_chatbot_gen": 0.5507246376811594,
+    "remesh_campus_protests": 0.627,
+    "remesh_foreign_intervention": 0.5985,
+    "remesh_right_to_assemble": 0.6925,
+    "polis_15_per_hour_seattle": 0.541704442429737,
+    "polis_american_assembly_bowling_green": 0.562,
+    "polis_brexit_consensus": 0.5055,
+    "polis_canadian_electoral_reform": 0.545,
+    "polis_scoop_hivemind_ubi": 0.7005
+  },
+  "hard_acc": 0.104,
+  "hard_n": 875
+}

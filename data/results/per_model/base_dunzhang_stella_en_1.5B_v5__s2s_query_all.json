@@ -1,0 +1,21 @@
+{
+  "model": "dunzhang/stella_en_1.5B_v5 [s2s_query]",
+  "hf_id": "dunzhang/stella_en_1.5B_v5",
+  "split": "all",
+  "formatter": "stella(prompt_name=s2s_query)",
+  "metrics": {
+    "gsc_abortion_gen": 0.6761229314420804,
+    "gsc_abortion_val": 0.599,
+    "gsc_chatbot_gen": 0.552536231884058,
+    "remesh_campus_protests": 0.531,
+    "remesh_foreign_intervention": 0.4945,
+    "remesh_right_to_assemble": 0.5185,
+    "polis_15_per_hour_seattle": 0.5308250226654578,
+    "polis_american_assembly_bowling_green": 0.54,
+    "polis_brexit_consensus": 0.4715,
+    "polis_canadian_electoral_reform": 0.4775,
+    "polis_scoop_hivemind_ubi": 0.412
+  },
+  "hard_acc": 0.17942857142857144,
+  "hard_n": 875
+}

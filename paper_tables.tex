@@ -1,0 +1,173 @@
+======================================================================
+% === tab:main-hard ===
+% --- Tab 2 (main-hard, natural 11-ds mean vs 875 hard triplets) ---
+% (label: tab:main-hard)
+
+sentence-T5-XL         & 65.2 & 48.3 & -16.9 \\
+e5-large-v2            & 60.4 & 26.7 & -33.7 \\
+BGE-large-en-v1.5      & 59.2 & \phantom{0}6.3 & -52.9 \\
+all-mpnet-base-v2      & 57.8 & \phantom{0}8.2 & -49.6 \\
+
+======================================================================
+% === tab:cross-model ===
+% --- Tab 3 (cross-model, 11-ds natural mean, 5 seeds) ---
+% (label: tab:cross-model; gain columns = tuned - base)
+
+sentence-T5-XL         & 65.2 & 68.6\,$\pm$\,0.25  &  48.3 & 80.0\,$\pm$\,0.37  & $+3.4$ & $+31.7$ \\
+e5-large-v2            & 60.4 & 63.0\,$\pm$\,0.27  &  26.7 & 78.7\,$\pm$\,0.54  & $+2.6$ & $+51.9$ \\
+BGE-large-en-v1.5      & 59.2 & 61.1\,$\pm$\,0.15  &   6.3 & 32.8\,$\pm$\,2.99  & $+1.9$ & $+26.5$ \\
+all-mpnet-base-v2      & 57.8 & 58.6\,$\pm$\,0.16  &   8.2 & 27.4\,$\pm$\,2.18  & $+0.8$ & $+19.2$ \\
+
+======================================================================
+% === tab:main ===
+% --- Tab 4 (abridged main, 11 ds) ---
+% (label: tab:main; bolding = column max)
+
+ST5-XL + DPT (ours)            & \textbf{81.8} & \textbf{76.4} & 65.9 & \textbf{67.5} & \textbf{65.6} & 69.5 & \textbf{69.8} & \textbf{65.1} & \textbf{68.4} & \textbf{62.5} & 61.9 & \textbf{68.6} \\
+ST5-XL                         & 81.1 & 70.5 & \textbf{69.7} & 65.8 & 61.1 & 69.9 & 60.7 & 57.6 & 56.4 & 55.5 & 69.2 & 65.2 \\
+OAI text-emb-3-large           & 79.6 & 74.5 & 56.1 & 63.9 & 61.1 & \textbf{71.4} & 58.1 & 57.7 & 51.6 & 50.0 & 68.1 & 62.9 \\
+ST5-Large                      & 75.5 & 65.5 & 57.2 & 64.6 & 59.9 & 69.2 & 58.8 & 58.1 & 49.9 & 56.8 & \textbf{72.2} & 62.5 \\
+BGE-large-en                   & 64.7 & 59.5 & 56.5 & 62.5 & 57.6 & 68.0 & 54.2 & 55.5 & 53.2 & 52.9 & 66.3 & 59.2 \\
+StanceAware-SBERT              & 58.5 & 58.2 & 36.4 & 64.8 & 59.7 & 68.2 & 68.1 & 56.1 & 52.5 & 52.3 & 68.3 & 58.5 \\
+BGE-SparseCL (arguana)         & 62.4 & 61.7 & 42.7 & 59.2 & 57.2 & 66.1 & 50.1 & 56.1 & 57.5 & 52.6 & 63.0 & 57.2 \\
+
+======================================================================
+% === tab:full-main ===
+% --- Tab 12 (full main, 11 ds) ---
+% (label: tab:full-main; bolding = column max)
+
+ST5-XL + DPT (ours)            & \textbf{81.8} & \textbf{76.4} & 65.9 & \textbf{67.5} & \textbf{65.6} & 69.5 & \textbf{69.8} & \textbf{65.1} & \textbf{68.4} & \textbf{62.5} & 61.9 & \textbf{68.6} \\
+ST5-XL                         & 81.1 & 70.5 & \textbf{69.7} & 65.8 & 61.1 & 69.9 & 60.7 & 57.6 & 56.4 & 55.5 & 69.2 & 65.2 \\
+OAI text-emb-3-large           & 79.6 & 74.5 & 56.1 & 63.9 & 61.1 & \textbf{71.4} & 58.1 & 57.7 & 51.6 & 50.0 & 68.1 & 62.9 \\
+ST5-Large                      & 75.5 & 65.5 & 57.2 & 64.6 & 59.9 & 69.2 & 58.8 & 58.1 & 49.9 & 56.8 & \textbf{72.2} & 62.5 \\
+Voyage-4-large                 & 69.9 & 69.0 & 63.7 & 60.0 & 57.9 & 69.0 & 55.4 & 58.3 & 50.3 & 48.3 & 63.6 & 60.5 \\
+ST5-Base                       & 68.6 & 62.5 & 47.1 & 63.7 & 59.0 & 66.6 & 58.4 & 56.9 & 51.1 & 56.0 & 68.8 & 59.9 \\
+Voyage-4                       & 72.3 & 66.6 & 62.1 & 58.4 & 56.7 & 67.0 & 54.9 & 57.4 & 50.8 & 50.1 & 64.5 & 60.1 \\
+NLI-mpnet                      & 56.1 & 66.9 & 47.6 & 65.6 & 61.0 & 69.5 & 58.3 & 56.9 & 52.8 & 55.5 & 68.7 & 59.9 \\
+GTE-large                      & 67.6 & 65.6 & 59.5 & 60.2 & 56.3 & 67.7 & 54.7 & 55.5 & 46.2 & 51.6 & 69.5 & 59.5 \\
+MxBAI-embed-large              & 63.9 & 62.4 & 55.1 & 62.7 & 59.9 & 69.2 & 54.2 & 56.2 & 50.5 & 54.5 & 70.0 & 59.9 \\
+BGE-large-en                   & 64.7 & 59.5 & 56.5 & 62.5 & 57.6 & 68.0 & 54.2 & 55.5 & 53.2 & 52.9 & 66.3 & 59.2 \\
+OAI text-emb-3-small           & 63.8 & 65.3 & 51.9 & 62.1 & 58.2 & 70.8 & 56.2 & 57.0 & 50.3 & 50.4 & 66.0 & 59.3 \\
+Voyage-3-large                 & 68.3 & 61.0 & 60.6 & 57.2 & 57.5 & 67.6 & 58.5 & 57.6 & 50.7 & 49.8 & 63.5 & 59.3 \\
+Voyage-4-lite                  & 70.1 & 64.5 & 61.3 & 58.2 & 56.8 & 65.4 & 53.3 & 57.0 & 51.2 & 49.3 & 65.5 & 59.3 \\
+StanceAware-SBERT              & 58.5 & 58.2 & 36.4 & 64.8 & 59.7 & 68.2 & 68.1 & 56.1 & 52.5 & 52.3 & 68.3 & 58.5 \\
+Paraphrase-MiniLM              & 58.2 & 67.8 & 51.7 & 59.7 & 58.3 & 67.5 & 51.7 & 56.4 & 53.3 & 52.4 & 64.7 & 58.3 \\
+E5-large-v2                    & 63.9 & 63.6 & 51.8 & 65.1 & 59.4 & 70.5 & 53.5 & 57.1 & 56.2 & 57.5 & 66.1 & 60.4 \\
+all-mpnet-base                 & 57.1 & 55.6 & 60.4 & 58.5 & 57.0 & 69.2 & 54.4 & 56.4 & 47.1 & 52.4 & 68.0 & 57.8 \\
+all-distilroberta              & 61.8 & 55.8 & 53.4 & 59.5 & 57.5 & 67.6 & 53.7 & 55.4 & 50.5 & 48.5 & 65.8 & 57.2 \\
+BGE-SparseCL (arguana)         & 62.4 & 61.7 & 42.7 & 59.2 & 57.2 & 66.1 & 50.1 & 56.1 & 57.5 & 52.6 & 63.0 & 57.2 \\
+Arctic-embed-l                 & 56.4 & 62.4 & 58.5 & 57.6 & 56.2 & 67.5 & 53.4 & 57.6 & 50.2 & 47.3 & 64.2 & 57.4 \\
+all-MiniLM-L12                 & 57.8 & 57.1 & 47.6 & 59.2 & 57.8 & 67.2 & 52.0 & 55.3 & 49.9 & 48.8 & 64.1 & 56.1 \\
+all-MiniLM-L6                  & 55.4 & 52.3 & 48.9 & 60.2 & 57.6 & 67.1 & 53.6 & 55.1 & 48.4 & 48.1 & 65.4 & 55.7 \\
+Voyage-3                       & 63.8 & 50.4 & 57.5 & 58.0 & 54.9 & 65.2 & 53.0 & 55.5 & 50.6 & 45.8 & 65.2 & 56.4 \\
+Qwen2-1.5B-instruct            & 59.6 & 50.8 & 49.7 & 56.5 & 54.9 & 58.0 & 48.5 & 50.9 & 49.4 & 50.5 & 62.7 & 53.8 \\
+Stella-en-1.5B                 & 43.5 & 50.2 & 65.3 & 55.0 & 55.1 & 54.0 & 53.4 & 49.1 & 47.4 & 57.0 & 49.7 & 52.7 \\
+
+======================================================================
+% === tab:probes ===
+% --- Tab 6 (probes ablation, macro over 11 ds, 5 seeds) ---
+% (label: tab:probes; bolded row = ideal-point baseline)
+
+\textbf{Ideal-point scorer \emph{(ours)}}  & $-\lVert L^\top\psi(a) - L^\top\psi(x)\rVert^2$  & 77.6 $\pm$ 0.4 & 81.1 $\pm$ 0.5 \\
+Nonlinear \textit{[drops linearity]}  & $-\lVert\phi(\psi(a)) - \phi(\psi(x))\rVert^2$, shared MLP $\phi$  & 73.5 $\pm$ 0.6 & 66.5 $\pm$ 3.1 \\
+Asymmetric \textit{[drops tied projection]}  & $-\lVert L_a^\top\psi(a) - L_x^\top\psi(x)\rVert^2$, indep.\ $L_a, L_x$  & 77.0 $\pm$ 0.2 & 73.7 $\pm$ 0.4 \\
+Inner product \textit{[drops distance]}  & $\langle L^\top\psi(a), L^\top\psi(x)\rangle$  & 77.9 $\pm$ 0.3 & 73.3 $\pm$ 0.2 \\
+
+======================================================================
+% === tab:scorer-extensions ===
+% --- App E.4 (scorer extensions, macro over 11 ds, 5 seeds) ---
+% (label: tab:scorer-extensions)
+
+Ideal-point scorer (baseline)        & $-\lVert L^\top\psi(a) - L^\top\psi(x)\rVert^2$  & 77.6 $\pm$ 0.4 & 81.1 $\pm$ 0.5 \\
+Anisotropic metric                   & $-\sum_k m_k (\tilde\psi_a^{(k)} - \tilde\psi_x^{(k)})^2$, $m\in\mathbb{R}^{20}_+$  & 77.3 $\pm$ 0.5 & 80.7 $\pm$ 0.6 \\
+Per-user salience                    & $-\sum_k w_k(\psi(a))\,(\tilde\psi_a^{(k)} - \tilde\psi_x^{(k)})^2$  & 76.8 $\pm$ 0.3 & 80.2 $\pm$ 0.8 \\
+Free item bias                       & $-\lVert\tilde\psi_a - \tilde\psi_x\rVert^2 + w^\top\psi(x)$, $w\in\mathbb{R}^{d}$  & 78.7 $\pm$ 0.3 & 83.4 $\pm$ 1.1 \\
+
+======================================================================
+% === tab:rank-ablation ===
+% --- App C.1 (LoRA rank ablation, single seed, mean over test datasets) ---
+% (label: tab:rank-ablation; bolded = column max)
+
+LoRA rank $r$       & 4 & 8 & 16 & 32 & 64 \\
+Mean test acc.\ (\%) & 67.6 & 68.3 & \textbf{68.7} & 67.1 & 63.8 \\
+
+======================================================================
+% === tab:rank-saturation ===
+% --- App E.5 (rank saturation, macro over 11 ds, 5 seeds) ---
+% (label: tab:rank-saturation)
+
+Rank $r$     & 1 & 2 & 5 & 10 & 20 & 50 & 100 \\
+Natural (\%) & 70.1 $\pm$ 0.3 & 72.9 $\pm$ 0.6 & 75.4 $\pm$ 0.5 & 77.1 $\pm$ 0.4 & 77.6 $\pm$ 0.4 & 77.1 $\pm$ 0.2 & 77.3 $\pm$ 0.2 \\
+Hard (\%)    & 74.0 $\pm$ 0.4 & 76.4 $\pm$ 0.8 & 79.2 $\pm$ 0.4 & 80.4 $\pm$ 0.6 & 81.1 $\pm$ 0.5 & 81.0 $\pm$ 0.5 & 80.3 $\pm$ 0.4 \\
+
+======================================================================
+% === tab:paired-test ===
+% --- App B (participant-level paired test, DPT vs base ST5-XL) ---
+% (label: tab:paired-test)
+
+GSC Abortion (gen)        &  30 & 78.1 & 84.5 & $+6.4$ & $4.3{\times}10^{-2}$ & $1.5{\times}10^{-3}$ \\
+GSC Abortion (val)        &  30 & 71.8 & 78.0 & $+6.2$ & $9.9{\times}10^{-3}$ & $3.5{\times}10^{-8}$ \\
+GSC Chatbot (gen)         &  30 & 65.1 & 65.5 & $+0.4$ & $0.75$ & $1.0$ \\
+Remesh Campus Protests    &  90 & 63.7 & 65.9 & $+2.2$ & $3.5{\times}10^{-5}$ & $1.3{\times}10^{-12}$ \\
+Remesh Foreign Interv.    &  87 & 62.2 & 63.3 & $+1.1$ & $4.3{\times}10^{-2}$ & $3.4{\times}10^{-3}$ \\
+Remesh Right to Assemble  &  89 & 69.3 & 70.3 & $+1.0$ & $7.5{\times}10^{-2}$ & $1.4{\times}10^{-2}$ \\
+Polis Seattle             &   4 & 70.4 & 72.9 & $+2.6$ & $0.75$ & $4.1{\times}10^{-2}$ \\
+Polis Bowling Green       &  67 & 61.1 & 61.8 & $+0.7$ & $3.0{\times}10^{-2}$ & $7.2{\times}10^{-189}$ \\
+Polis Brexit              &   4 & 69.9 & 72.0 & $+2.1$ & $0.62$ & $5.4{\times}10^{-3}$ \\
+Polis Canadian            &   6 & 50.7 & 57.1 & $+6.3$ & $6.2{\times}10^{-2}$ & $6.9{\times}10^{-10}$ \\
+Polis UBI                 &   5 & 55.0 & 58.0 & $+3.0$ & $0.12$ & $1.4{\times}10^{-2}$ \\
+\midrule
+\textbf{Pooled}             & \textbf{442} & \textbf{65.6} & \textbf{67.6} & $\boldsymbol{+2.0}$ & $\boldsymbol{3.4{\times}10^{-9}}$ & $\boldsymbol{9.5{\times}10^{-218}}$ \\
+
+======================================================================
+% === tab:cluster-coherence ===
+% --- App E.7 (cluster-coherence lift, 5 km-seed mean per cell) ---
+% (label: tab:cluster-coherence; bolded = best per row)
+
+\multirow{4}{*}{Campus Protests}         &  3 & 9.7 & \textbf{11.1} & 9.5 \\
+                                         &  5 & 6.4 & 8.5 & \textbf{11.5} \\
+                                         &  8 & 8.7 & 11.0 & \textbf{11.1} \\
+                                         & 10 & 8.8 & 10.4 & \textbf{10.7} \\
+\midrule
+\multirow{4}{*}{Foreign Intervention}    &  3 & 2.4 & 5.8 & \textbf{10.1} \\
+                                         &  5 & 6.4 & 5.1 & \textbf{11.4} \\
+                                         &  8 & 7.7 & \textbf{9.0} & 0.7 \\
+                                         & 10 & 6.0 & \textbf{7.1} & 2.6 \\
+\midrule
+\multirow{4}{*}{Right to Assemble}       &  3 & 1.4 & 1.8 & \textbf{2.0} \\
+                                         &  5 & 2.8 & \textbf{3.7} & 2.9 \\
+                                         &  8 & \textbf{4.5} & 3.3 & 2.3 \\
+                                         & 10 & 2.1 & 3.4 & \textbf{3.9} \\
+
+======================================================================
+% === tab:likert-correlation ===
+% --- App E.8 (Likert correlation, pooled Spearman) ---
+% (label: tab:likert-correlation; bolded = best per row)
+
+\texttt{gsc\_abortion\_gen}      &  500 & 0.436 & 0.614 & \textbf{0.626} \\
+\texttt{gsc\_abortion\_val}      & 1000 & 0.415 & 0.544 & \textbf{0.721} \\
+\texttt{gsc\_chatbot\_gen}       & 1100 & 0.254 & \textbf{0.385} & 0.331 \\
+
+======================================================================
+% === tab:probe-on-tuned ===
+% --- App E.6 (per-topic probe on base vs tuned encoder) ---
+% (label: tab:probe-on-tuned; bolded per row, separately for nat & hard)
+
+GSC Abortion (gen)        & \textbf{88.3 $\pm$ 0.8} & 87.4 $\pm$ 0.0 & 78.0 $\pm$ 0.0 & 78.0 $\pm$ 0.0 \\
+GSC Abortion (val)        & 85.5 $\pm$ 2.1 & \textbf{86.2 $\pm$ 0.6} & 82.8 $\pm$ 2.7 & \textbf{87.6 $\pm$ 0.5} \\
+GSC Chatbot (gen)         & \textbf{76.7 $\pm$ 1.5} & 76.6 $\pm$ 0.4 & 67.5 $\pm$ 1.3 & \textbf{71.1 $\pm$ 1.2} \\
+Remesh Campus Protests    & \textbf{76.9 $\pm$ 0.2} & 76.8 $\pm$ 0.2 & 85.4 $\pm$ 1.1 & \textbf{92.0 $\pm$ 0.7} \\
+Remesh Foreign Interv.    & \textbf{67.0 $\pm$ 0.1} & 66.7 $\pm$ 0.2 & 80.8 $\pm$ 1.8 & \textbf{89.0 $\pm$ 0.7} \\
+Remesh Right to Assemble  & 74.9 $\pm$ 0.5 & \textbf{76.0 $\pm$ 0.1} & 71.8 $\pm$ 0.8 & \textbf{76.2 $\pm$ 0.4} \\
+Polis Seattle             & \textbf{74.6 $\pm$ 4.0} & 73.5 $\pm$ 1.6 & 98.5 $\pm$ 3.4 & \textbf{100.0 $\pm$ 0.0} \\
+Polis Bowling Green       & 72.2 $\pm$ 0.3 & \textbf{72.9 $\pm$ 0.6} & 84.2 $\pm$ 1.3 & \textbf{90.2 $\pm$ 2.6} \\
+Polis Brexit              & 83.4 $\pm$ 1.7 & \textbf{90.1 $\pm$ 0.4} & 79.2 $\pm$ 1.5 & \textbf{84.6 $\pm$ 1.1} \\
+Polis Canadian            & \textbf{75.7 $\pm$ 1.1} & 75.1 $\pm$ 0.3 & 77.4 $\pm$ 1.5 & \textbf{84.6 $\pm$ 0.9} \\
+Polis UBI                 & \textbf{78.4 $\pm$ 0.7} & 76.5 $\pm$ 0.7 & 86.7 $\pm$ 0.0 & 86.7 $\pm$ 0.0 \\
+\midrule
+\textbf{Macro mean}      & 77.6 & \textbf{78.0} & 81.1 & \textbf{85.5} \\
+
+======================================================================
+% === tab:probe-on-tuned-margin ===
+% (probe_margin_decomposition.json missing — run scripts/experiments/probe_margin_decomposition.py)
+

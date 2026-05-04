@@ -1,0 +1,246 @@
+{
+  "pooled": {
+    "base": {
+      "n": 875,
+      "mean": 0.1253676208768572,
+      "median": 0.11906969547271729,
+      "std": 0.04847673294308785,
+      "q25": 0.09204795956611633,
+      "q75": 0.14968523383140564
+    },
+    "tuned": {
+      "n": 875,
+      "mean": 0.13063966962269374,
+      "median": 0.1232495903968811,
+      "std": 0.054511065723217386,
+      "q25": 0.0925474464893341,
+      "q75": 0.1595306694507599
+    },
+    "proj": {
+      "n": 875,
+      "mean": 0.0216664596753461,
+      "median": 0.001086592674255371,
+      "std": 0.09029484740465799,
+      "q25": 0.00010597705841064453,
+      "q75": 0.0065437257289886475
+    },
+    "tuned_vs_base": {
+      "n": 875,
+      "stat": 142662.0,
+      "p": 5.851424020464904e-11,
+      "frac_smaller_than_base": 0.4617142857142857
+    },
+    "proj_vs_base": {
+      "n": 875,
+      "stat": 16203.0,
+      "p": 1.0960146476785026e-121,
+      "frac_smaller_than_base": 0.9588571428571429
+    },
+    "proj_vs_tuned": {
+      "n": 875,
+      "stat": 15321.0,
+      "p": 6.808526406648851e-123,
+      "frac_smaller_than_base": 0.9611428571428572
+    }
+  },
+  "per_dataset": {
+    "gsc_abortion_gen": {
+      "n": 100,
+      "base_mean": 0.11715111970901489,
+      "tuned_mean": 0.1245907324552536,
+      "proj_mean": 0.09293184194713831,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 1492.0,
+        "p": 0.0003826207334198479,
+        "frac_smaller_than_base": 0.39
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 1244.0,
+        "p": 1.060310144478976e-05,
+        "frac_smaller_than_base": 0.79
+      }
+    },
+    "gsc_abortion_val": {
+      "n": 100,
+      "base_mean": 0.1251455384492874,
+      "tuned_mean": 0.13318535923957825,
+      "proj_mean": 0.06457267992198468,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 1371.0,
+        "p": 7.253099314369716e-05,
+        "frac_smaller_than_base": 0.33
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 636.0,
+        "p": 8.303582149243268e-11,
+        "frac_smaller_than_base": 0.87
+      }
+    },
+    "gsc_chatbot_gen": {
+      "n": 99,
+      "base_mean": 0.11499046857910927,
+      "tuned_mean": 0.12408639264829231,
+      "proj_mean": 0.020807354889734828,
+      "tuned_vs_base": {
+        "n": 99,
+        "stat": 966.0,
+        "p": 1.387865735740051e-07,
+        "frac_smaller_than_base": 0.32323232323232326
+      },
+      "proj_vs_base": {
+        "n": 99,
+        "stat": 148.0,
+        "p": 4.589250989137248e-16,
+        "frac_smaller_than_base": 0.9797979797979798
+      }
+    },
+    "polis_15_per_hour_seattle": {
+      "n": 13,
+      "base_mean": 0.1429373438541706,
+      "tuned_mean": 0.15264307077114397,
+      "proj_mean": 0.0062734759770906885,
+      "tuned_vs_base": {
+        "n": 13,
+        "stat": 38.0,
+        "p": 0.635498046875,
+        "frac_smaller_than_base": 0.5384615384615384
+      },
+      "proj_vs_base": {
+        "n": 13,
+        "stat": 0.0,
+        "p": 0.000244140625,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "polis_american_assembly_bowling_green": {
+      "n": 100,
+      "base_mean": 0.12072864055633545,
+      "tuned_mean": 0.12908355474472047,
+      "proj_mean": 0.0036255371570587157,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 1559.0,
+        "p": 0.0008956007594853812,
+        "frac_smaller_than_base": 0.42
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 0.0,
+        "p": 3.896559845095909e-18,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "polis_brexit_consensus": {
+      "n": 48,
+      "base_mean": 0.11110551158587138,
+      "tuned_mean": 0.1151485654215018,
+      "proj_mean": 3.271549940109253e-05,
+      "tuned_vs_base": {
+        "n": 48,
+        "stat": 416.0,
+        "p": 0.07849029234223792,
+        "frac_smaller_than_base": 0.4375
+      },
+      "proj_vs_base": {
+        "n": 48,
+        "stat": 0.0,
+        "p": 7.105427357601002e-15,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "polis_canadian_electoral_reform": {
+      "n": 100,
+      "base_mean": 0.12403807818889617,
+      "tuned_mean": 0.12659251034259797,
+      "proj_mean": 0.001716068983078003,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 2412.0,
+        "p": 0.6976233342391592,
+        "frac_smaller_than_base": 0.59
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 0.0,
+        "p": 3.896559845095909e-18,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "polis_scoop_hivemind_ubi": {
+      "n": 15,
+      "base_mean": 0.1261489470799764,
+      "tuned_mean": 0.13263894319534303,
+      "proj_mean": 9.310642878214518e-05,
+      "tuned_vs_base": {
+        "n": 15,
+        "stat": 46.0,
+        "p": 0.45428466796875,
+        "frac_smaller_than_base": 0.4666666666666667
+      },
+      "proj_vs_base": {
+        "n": 15,
+        "stat": 0.0,
+        "p": 6.103515625e-05,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "remesh_campus_protests": {
+      "n": 100,
+      "base_mean": 0.12337525665760041,
+      "tuned_mean": 0.12475545108318328,
+      "proj_mean": 0.0030520838499069215,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 2502.0,
+        "p": 0.9369678210300386,
+        "frac_smaller_than_base": 0.53
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 0.0,
+        "p": 3.896559845095909e-18,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "remesh_foreign_intervention": {
+      "n": 100,
+      "base_mean": 0.12667376518249512,
+      "tuned_mean": 0.12889663755893707,
+      "proj_mean": 0.002173655033111572,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 2430.0,
+        "p": 0.7439395352842529,
+        "frac_smaller_than_base": 0.56
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 0.0,
+        "p": 3.896559845095909e-18,
+        "frac_smaller_than_base": 1.0
+      }
+    },
+    "remesh_right_to_assemble": {
+      "n": 100,
+      "base_mean": 0.15517887771129607,
+      "tuned_mean": 0.1581365829706192,
+      "proj_mean": 6.515264511108398e-05,
+      "tuned_vs_base": {
+        "n": 100,
+        "stat": 2311.0,
+        "p": 0.4618514981768562,
+        "frac_smaller_than_base": 0.55
+      },
+      "proj_vs_base": {
+        "n": 100,
+        "stat": 0.0,
+        "p": 3.896559845095909e-18,
+        "frac_smaller_than_base": 1.0
+      }
+    }
+  }
+}

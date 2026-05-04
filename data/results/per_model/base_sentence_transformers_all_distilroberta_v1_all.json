@@ -1,0 +1,21 @@
+{
+  "model": "sentence-transformers/all-distilroberta-v1",
+  "hf_id": "sentence-transformers/all-distilroberta-v1",
+  "split": "all",
+  "formatter": "plain",
+  "metrics": {
+    "gsc_abortion_gen": 0.6182033096926713,
+    "gsc_abortion_val": 0.5575,
+    "gsc_chatbot_gen": 0.5344202898550725,
+    "remesh_campus_protests": 0.5945,
+    "remesh_foreign_intervention": 0.575,
+    "remesh_right_to_assemble": 0.676,
+    "polis_15_per_hour_seattle": 0.5371713508612874,
+    "polis_american_assembly_bowling_green": 0.554,
+    "polis_brexit_consensus": 0.505,
+    "polis_canadian_electoral_reform": 0.485,
+    "polis_scoop_hivemind_ubi": 0.6575
+  },
+  "hard_acc": 0.036571428571428574,
+  "hard_n": 875
+}

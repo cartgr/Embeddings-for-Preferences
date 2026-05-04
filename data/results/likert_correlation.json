@@ -1,0 +1,89 @@
+{
+  "gsc_abortion_gen": {
+    "base": {
+      "n_pairs": 500,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.43648022261933617,
+      "pearson_pooled": 0.417848463696227,
+      "spearman_within_mean": 0.5371319660491891,
+      "spearman_within_std": 0.36490535446167327
+    },
+    "tuned": {
+      "n_pairs": 500,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.613569450794608,
+      "pearson_pooled": 0.5914683927752651,
+      "spearman_within_mean": 0.6589793818356051,
+      "spearman_within_std": 0.33405707226750636
+    },
+    "proj": {
+      "n_pairs": 500,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.6260501852480573,
+      "pearson_pooled": 0.6732889212757861,
+      "spearman_within_mean": 0.6008501247429937,
+      "spearman_within_std": 0.31807425683240526
+    }
+  },
+  "gsc_abortion_val": {
+    "base": {
+      "n_pairs": 1000,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.4151653251321516,
+      "pearson_pooled": 0.3873295134501546,
+      "spearman_within_mean": 0.46192841266586754,
+      "spearman_within_std": 0.43741928706159117
+    },
+    "tuned": {
+      "n_pairs": 1000,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.5444201875635324,
+      "pearson_pooled": 0.5259239857778168,
+      "spearman_within_mean": 0.5641965473329522,
+      "spearman_within_std": 0.3555936899807336
+    },
+    "proj": {
+      "n_pairs": 1000,
+      "n_skipped": 0,
+      "n_users_within": 100,
+      "spearman_pooled": 0.7210093649832564,
+      "pearson_pooled": 0.7095594703088333,
+      "spearman_within_mean": 0.7240010978345285,
+      "spearman_within_std": 0.1910926552128608
+    }
+  },
+  "gsc_chatbot_gen": {
+    "base": {
+      "n_pairs": 1100,
+      "n_skipped": 0,
+      "n_users_within": 190,
+      "spearman_pooled": 0.25393009490381707,
+      "pearson_pooled": 0.22380915591466413,
+      "spearman_within_mean": 0.2538930887601611,
+      "spearman_within_std": 0.47183116549764825
+    },
+    "tuned": {
+      "n_pairs": 1100,
+      "n_skipped": 0,
+      "n_users_within": 190,
+      "spearman_pooled": 0.3847202490319188,
+      "pearson_pooled": 0.3881470110008836,
+      "spearman_within_mean": 0.22385994781000323,
+      "spearman_within_std": 0.49988214861497204
+    },
+    "proj": {
+      "n_pairs": 1100,
+      "n_skipped": 0,
+      "n_users_within": 190,
+      "spearman_pooled": 0.33110257196295345,
+      "pearson_pooled": 0.4263898928167827,
+      "spearman_within_mean": 0.17411632897175353,
+      "spearman_within_std": 0.45958338786425496
+    }
+  }
+}

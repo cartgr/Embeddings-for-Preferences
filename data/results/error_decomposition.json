@@ -1,0 +1,115 @@
+{
+  "base_model": "sentence-transformers/sentence-t5-xl",
+  "tuned_model": "data/models/best/sentence_transformers_sentence_t5_xl/targeted_sweep/lr1p25eem4_n750_r16_a48",
+  "n_triplets": 1458991,
+  "overall": {
+    "both_correct": 795617,
+    "both_wrong": 539302,
+    "tuned_fixes": 67452,
+    "tuned_breaks": 56620,
+    "base_accuracy": 0.5841276608286138,
+    "tuned_accuracy": 0.5915519698202388,
+    "net_improvement_pp": 0.7424308991625034
+  },
+  "per_dataset": {
+    "gsc_abortion_gen": {
+      "n": 846,
+      "both_correct": 664,
+      "both_wrong": 95,
+      "tuned_fixes": 65,
+      "tuned_breaks": 22,
+      "base_accuracy": 0.8108747044917257,
+      "tuned_accuracy": 0.8617021276595744
+    },
+    "gsc_abortion_val": {
+      "n": 3513,
+      "both_correct": 2309,
+      "both_wrong": 681,
+      "tuned_fixes": 364,
+      "tuned_breaks": 159,
+      "base_accuracy": 0.7025334471961286,
+      "tuned_accuracy": 0.7608881298035867
+    },
+    "gsc_chatbot_gen": {
+      "n": 1104,
+      "both_correct": 667,
+      "both_wrong": 223,
+      "tuned_fixes": 112,
+      "tuned_breaks": 102,
+      "base_accuracy": 0.6965579710144928,
+      "tuned_accuracy": 0.7056159420289855
+    },
+    "remesh_campus_protests": {
+      "n": 21989,
+      "both_correct": 13989,
+      "both_wrong": 6445,
+      "tuned_fixes": 1098,
+      "tuned_breaks": 457,
+      "base_accuracy": 0.6569648460593933,
+      "tuned_accuracy": 0.6861157851653099
+    },
+    "remesh_foreign_intervention": {
+      "n": 12428,
+      "both_correct": 7334,
+      "both_wrong": 4218,
+      "tuned_fixes": 539,
+      "tuned_breaks": 337,
+      "base_accuracy": 0.6172352751850659,
+      "tuned_accuracy": 0.6334888960411973
+    },
+    "remesh_right_to_assemble": {
+      "n": 28340,
+      "both_correct": 18350,
+      "both_wrong": 8431,
+      "tuned_fixes": 857,
+      "tuned_breaks": 702,
+      "base_accuracy": 0.6722653493295695,
+      "tuned_accuracy": 0.6777346506704305
+    },
+    "polis_15_per_hour_seattle": {
+      "n": 1103,
+      "both_correct": 631,
+      "both_wrong": 355,
+      "tuned_fixes": 79,
+      "tuned_breaks": 38,
+      "base_accuracy": 0.6065276518585675,
+      "tuned_accuracy": 0.6436990027198549
+    },
+    "polis_american_assembly_bowling_green": {
+      "n": 1363191,
+      "both_correct": 737091,
+      "both_wrong": 509282,
+      "tuned_fixes": 62850,
+      "tuned_breaks": 53968,
+      "base_accuracy": 0.5802994591366873,
+      "tuned_accuracy": 0.58681505379657
+    },
+    "polis_brexit_consensus": {
+      "n": 2468,
+      "both_correct": 1322,
+      "both_wrong": 951,
+      "tuned_fixes": 121,
+      "tuned_breaks": 74,
+      "base_accuracy": 0.5656401944894651,
+      "tuned_accuracy": 0.5846839546191248
+    },
+    "polis_canadian_electoral_reform": {
+      "n": 19366,
+      "both_correct": 10163,
+      "both_wrong": 7389,
+      "tuned_fixes": 1177,
+      "tuned_breaks": 637,
+      "base_accuracy": 0.5576784054528555,
+      "tuned_accuracy": 0.5855623257254983
+    },
+    "polis_scoop_hivemind_ubi": {
+      "n": 4643,
+      "both_correct": 3097,
+      "both_wrong": 1232,
+      "tuned_fixes": 190,
+      "tuned_breaks": 124,
+      "base_accuracy": 0.6937325005384449,
+      "tuned_accuracy": 0.7079474477708378
+    }
+  }
+}

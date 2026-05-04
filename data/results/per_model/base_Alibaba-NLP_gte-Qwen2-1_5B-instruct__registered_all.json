@@ -1,0 +1,21 @@
+{
+  "model": "Alibaba-NLP/gte-Qwen2-1.5B-instruct [registered]",
+  "hf_id": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+  "split": "all",
+  "formatter": "qwen_instruct(task='Given a web search query, retrieve relevant passages that answer the query')",
+  "metrics": {
+    "gsc_abortion_gen": 0.5709219858156028,
+    "gsc_abortion_val": 0.484,
+    "gsc_chatbot_gen": 0.490036231884058,
+    "remesh_campus_protests": 0.5665,
+    "remesh_foreign_intervention": 0.5445,
+    "remesh_right_to_assemble": 0.5945,
+    "polis_15_per_hour_seattle": 0.5036264732547597,
+    "polis_american_assembly_bowling_green": 0.522,
+    "polis_brexit_consensus": 0.498,
+    "polis_canadian_electoral_reform": 0.513,
+    "polis_scoop_hivemind_ubi": 0.6325
+  },
+  "hard_acc": 0.025142857142857144,
+  "hard_n": 875
+}

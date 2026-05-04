@@ -1,0 +1,21 @@
+{
+  "model": "voyage-3-large",
+  "hf_id": "voyage-3-large",
+  "split": "all",
+  "formatter": "voyage(input_type=query/document)",
+  "metrics": {
+    "gsc_abortion_gen": 0.6832151300236406,
+    "gsc_abortion_val": 0.6095,
+    "gsc_chatbot_gen": 0.6059782608695652,
+    "remesh_campus_protests": 0.572,
+    "remesh_foreign_intervention": 0.575,
+    "remesh_right_to_assemble": 0.676,
+    "polis_15_per_hour_seattle": 0.585222121486854,
+    "polis_american_assembly_bowling_green": 0.5765,
+    "polis_brexit_consensus": 0.5075,
+    "polis_canadian_electoral_reform": 0.498,
+    "polis_scoop_hivemind_ubi": 0.6355
+  },
+  "hard_acc": 0.06514285714285714,
+  "hard_n": 875
+}

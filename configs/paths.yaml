@@ -1,0 +1,22 @@
+# Single source of truth for all data paths.
+# All paths are relative to the project root.
+
+external:
+  gsc_dir: data/external/gsc
+  polis_dir: data/external/polis
+  remesh_dir: data/external/polarized-issues-data
+
+raw:
+  habermas_dir: data/raw/habermas
+
+processed:
+  eval_dir: data/processed/eval
+  issues_dir: data/processed/issues
+  opinions_dir: data/processed/opinions
+  triplets_dir: data/processed/triplets
+
+models:
+  best_dir: data/models/best
+
+results:
+  results_dir: data/results

@@ -1,0 +1,21 @@
+{
+  "model": "thenlper/gte-large",
+  "hf_id": "thenlper/gte-large",
+  "split": "all",
+  "formatter": "plain",
+  "metrics": {
+    "gsc_abortion_gen": 0.6761229314420804,
+    "gsc_abortion_val": 0.6565,
+    "gsc_chatbot_gen": 0.595108695652174,
+    "remesh_campus_protests": 0.602,
+    "remesh_foreign_intervention": 0.563,
+    "remesh_right_to_assemble": 0.677,
+    "polis_15_per_hour_seattle": 0.5471441523118767,
+    "polis_american_assembly_bowling_green": 0.555,
+    "polis_brexit_consensus": 0.462,
+    "polis_canadian_electoral_reform": 0.516,
+    "polis_scoop_hivemind_ubi": 0.6945
+  },
+  "hard_acc": 0.061714285714285715,
+  "hard_n": 875
+}

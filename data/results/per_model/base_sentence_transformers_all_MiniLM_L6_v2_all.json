@@ -1,0 +1,21 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "hf_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "split": "all",
+  "formatter": "plain",
+  "metrics": {
+    "gsc_abortion_gen": 0.5543735224586288,
+    "gsc_abortion_val": 0.5235,
+    "gsc_chatbot_gen": 0.4891304347826087,
+    "remesh_campus_protests": 0.602,
+    "remesh_foreign_intervention": 0.5765,
+    "remesh_right_to_assemble": 0.671,
+    "polis_15_per_hour_seattle": 0.5362647325475974,
+    "polis_american_assembly_bowling_green": 0.5515,
+    "polis_brexit_consensus": 0.4835,
+    "polis_canadian_electoral_reform": 0.481,
+    "polis_scoop_hivemind_ubi": 0.654
+  },
+  "hard_acc": 0.008,
+  "hard_n": 875
+}

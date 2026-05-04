@@ -1,0 +1,28 @@
+{
+  "source": "data/processed/triplets/hard_eval_triplets_1k.jsonl#105",
+  "anchor": "It should be legal. Religion has no place in politics if we truly want to be free.",
+  "match": "To ensure true freedom, it's crucial that legislation remains secular, without religious influence.",
+  "distractor": "It should be illegal. Religion has a place in politics if we truly want to be free.",
+  "dataset": "gsc_abortion_gen",
+  "rank": 20,
+  "results": [
+    {
+      "geometry": "base",
+      "sim_match": 0.8180049061775208,
+      "sim_distractor": 0.8654982447624207,
+      "margin": -0.0474933385848999
+    },
+    {
+      "geometry": "tuned",
+      "sim_match": 0.8140643239021301,
+      "sim_distractor": 0.789715588092804,
+      "margin": 0.024348735809326172
+    },
+    {
+      "geometry": "projected",
+      "sim_match": 0.9940133094787598,
+      "sim_distractor": -0.7403078079223633,
+      "margin": 1.734321117401123
+    }
+  ]
+}

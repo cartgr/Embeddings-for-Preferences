@@ -1,0 +1,21 @@
+{
+  "model": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+  "hf_id": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+  "split": "all",
+  "formatter": "qwen_instruct(task='Given an opinion statement on a contested social or political issue, retrieve other statements that share the same stance and underlying values.')",
+  "metrics": {
+    "gsc_abortion_gen": 0.5957446808510638,
+    "gsc_abortion_val": 0.508,
+    "gsc_chatbot_gen": 0.49728260869565216,
+    "remesh_campus_protests": 0.5655,
+    "remesh_foreign_intervention": 0.5485,
+    "remesh_right_to_assemble": 0.58,
+    "polis_15_per_hour_seattle": 0.4845874886672711,
+    "polis_american_assembly_bowling_green": 0.509,
+    "polis_brexit_consensus": 0.4935,
+    "polis_canadian_electoral_reform": 0.5055,
+    "polis_scoop_hivemind_ubi": 0.627
+  },
+  "hard_acc": 0.061714285714285715,
+  "hard_n": 875
+}

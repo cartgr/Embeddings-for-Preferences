@@ -1,0 +1,21 @@
+{
+  "model": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "hf_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "split": "all",
+  "formatter": "prefix(q='query: ', p='')",
+  "metrics": {
+    "gsc_abortion_gen": 0.5638297872340425,
+    "gsc_abortion_val": 0.6235,
+    "gsc_chatbot_gen": 0.5851449275362319,
+    "remesh_campus_protests": 0.5755,
+    "remesh_foreign_intervention": 0.5625,
+    "remesh_right_to_assemble": 0.6755,
+    "polis_15_per_hour_seattle": 0.5344514959202176,
+    "polis_american_assembly_bowling_green": 0.576,
+    "polis_brexit_consensus": 0.502,
+    "polis_canadian_electoral_reform": 0.4735,
+    "polis_scoop_hivemind_ubi": 0.642
+  },
+  "hard_acc": 0.005714285714285714,
+  "hard_n": 875
+}

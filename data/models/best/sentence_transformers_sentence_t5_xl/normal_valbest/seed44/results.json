@@ -1,0 +1,44 @@
+{
+  "model_path": "data/models/best/sentence_transformers_sentence_t5_xl/normal_valbest/seed44",
+  "val_metrics": {
+    "gsc_abortion_gen": 0.8495726495726496,
+    "gsc_abortion_val": 0.7287928221859706,
+    "gsc_chatbot_gen": 0.7297650130548303,
+    "remesh_campus_protests": 0.6811209630444631,
+    "remesh_foreign_intervention": 0.6183879093198993,
+    "remesh_right_to_assemble": 0.6583470141596552,
+    "polis_15_per_hour_seattle": 0.5798258345428157,
+    "polis_american_assembly_bowling_green": 0.5679936189042779,
+    "polis_brexit_consensus": 0.5278497409326425,
+    "polis_canadian_electoral_reform": 0.5499635634906176,
+    "polis_scoop_hivemind_ubi": 0.7300594307162965
+  },
+  "test_metrics": {
+    "gsc_abortion_gen": 0.8352490421455939,
+    "gsc_abortion_val": 0.7615457115928369,
+    "gsc_chatbot_gen": 0.6449704142011834,
+    "remesh_campus_protests": 0.6488222698072805,
+    "remesh_foreign_intervention": 0.6212777476989713,
+    "remesh_right_to_assemble": 0.6993670886075949,
+    "polis_15_per_hour_seattle": 0.6956521739130435,
+    "polis_american_assembly_bowling_green": 0.6244942218295364,
+    "polis_brexit_consensus": 0.6244588744588745,
+    "polis_canadian_electoral_reform": 0.5923938960419647,
+    "polis_scoop_hivemind_ubi": 0.6134163208852006
+  },
+  "all_metrics": {
+    "gsc_abortion_gen": 0.8451536643026005,
+    "gsc_abortion_val": 0.7386848847139197,
+    "gsc_chatbot_gen": 0.7038043478260869,
+    "remesh_campus_protests": 0.6715175769703033,
+    "remesh_foreign_intervention": 0.6192468619246861,
+    "remesh_right_to_assemble": 0.6711538461538461,
+    "polis_15_per_hour_seattle": 0.6233000906618313,
+    "polis_american_assembly_bowling_green": 0.58037795143894,
+    "polis_brexit_consensus": 0.5640194489465153,
+    "polis_canadian_electoral_reform": 0.5683414231126717,
+    "polis_scoop_hivemind_ubi": 0.6937325005384449
+  },
+  "hard_eval_accuracy": 0.5954285714285714,
+  "hard_eval_n": 875
+}

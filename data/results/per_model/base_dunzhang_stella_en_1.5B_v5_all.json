@@ -1,0 +1,21 @@
+{
+  "model": "dunzhang/stella_en_1.5B_v5",
+  "hf_id": "dunzhang/stella_en_1.5B_v5",
+  "split": "all",
+  "formatter": "stella(task='Given an opinion statement on a contested social or political issue, retrieve other statements that share the same stance and underlying values.')",
+  "metrics": {
+    "gsc_abortion_gen": 0.43498817966903075,
+    "gsc_abortion_val": 0.502,
+    "gsc_chatbot_gen": 0.6530797101449275,
+    "remesh_campus_protests": 0.55,
+    "remesh_foreign_intervention": 0.551,
+    "remesh_right_to_assemble": 0.54,
+    "polis_15_per_hour_seattle": 0.5335448776065277,
+    "polis_american_assembly_bowling_green": 0.4915,
+    "polis_brexit_consensus": 0.4745,
+    "polis_canadian_electoral_reform": 0.5695,
+    "polis_scoop_hivemind_ubi": 0.497
+  },
+  "hard_acc": 0.24457142857142858,
+  "hard_n": 875
+}

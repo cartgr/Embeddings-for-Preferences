@@ -1,0 +1,82 @@
+{
+  "encoder": "sentence-transformers/sentence-t5-xl",
+  "hard_triplets_path": "data/processed/triplets/hard_eval_triplets_1k.jsonl",
+  "probe_dir": "data/results/psd_probe_weights",
+  "per_dataset": {
+    "polis_canadian_electoral_reform": {
+      "n": 100,
+      "probe_acc": 0.67,
+      "base_cos_acc": 0.62,
+      "delta_pp": 5.000000000000004
+    },
+    "remesh_right_to_assemble": {
+      "n": 100,
+      "probe_acc": 0.66,
+      "base_cos_acc": 0.57,
+      "delta_pp": 9.000000000000007
+    },
+    "remesh_campus_protests": {
+      "n": 100,
+      "probe_acc": 0.84,
+      "base_cos_acc": 0.53,
+      "delta_pp": 30.999999999999993
+    },
+    "polis_american_assembly_bowling_green": {
+      "n": 100,
+      "probe_acc": 0.84,
+      "base_cos_acc": 0.68,
+      "delta_pp": 15.999999999999993
+    },
+    "gsc_abortion_gen": {
+      "n": 100,
+      "probe_acc": 0.8,
+      "base_cos_acc": 0.29,
+      "delta_pp": 51.0
+    },
+    "polis_brexit_consensus": {
+      "n": 48,
+      "probe_acc": 0.4583333333333333,
+      "base_cos_acc": 0.6041666666666666,
+      "delta_pp": -14.583333333333332
+    },
+    "remesh_foreign_intervention": {
+      "n": 100,
+      "probe_acc": 0.77,
+      "base_cos_acc": 0.43,
+      "delta_pp": 34.0
+    },
+    "gsc_abortion_val": {
+      "n": 100,
+      "probe_acc": 0.83,
+      "base_cos_acc": 0.37,
+      "delta_pp": 46.0
+    },
+    "polis_15_per_hour_seattle": {
+      "n": 13,
+      "probe_acc": 1.0,
+      "base_cos_acc": 0.46153846153846156,
+      "delta_pp": 53.84615384615385
+    },
+    "polis_scoop_hivemind_ubi": {
+      "n": 15,
+      "probe_acc": 0.8,
+      "base_cos_acc": 0.6666666666666666,
+      "delta_pp": 13.333333333333341
+    },
+    "gsc_chatbot_gen": {
+      "n": 99,
+      "probe_acc": 0.696969696969697,
+      "base_cos_acc": 0.29292929292929293,
+      "delta_pp": 40.40404040404041
+    }
+  },
+  "pooled": {
+    "n": 875,
+    "probe_acc": 0.7508571428571429,
+    "base_cos_acc": 0.48342857142857143
+  },
+  "macro_mean": {
+    "probe_acc": 0.7604820936639118,
+    "base_cos_acc": 0.5013910079819172
+  }
+}

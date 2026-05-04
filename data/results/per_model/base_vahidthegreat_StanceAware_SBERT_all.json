@@ -1,0 +1,21 @@
+{
+  "model": "vahidthegreat/StanceAware-SBERT",
+  "hf_id": "vahidthegreat/StanceAware-SBERT",
+  "split": "all",
+  "formatter": "plain",
+  "metrics": {
+    "gsc_abortion_gen": 0.5851063829787234,
+    "gsc_abortion_val": 0.582,
+    "gsc_chatbot_gen": 0.3641304347826087,
+    "remesh_campus_protests": 0.648,
+    "remesh_foreign_intervention": 0.5965,
+    "remesh_right_to_assemble": 0.682,
+    "polis_15_per_hour_seattle": 0.6813236627379873,
+    "polis_american_assembly_bowling_green": 0.561,
+    "polis_brexit_consensus": 0.525,
+    "polis_canadian_electoral_reform": 0.523,
+    "polis_scoop_hivemind_ubi": 0.683
+  },
+  "hard_acc": 0.5177142857142857,
+  "hard_n": 875
+}

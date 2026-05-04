@@ -1,0 +1,74 @@
+{
+  "sentence-transformers/sentence-t5-xl": {
+    "hard_acc": 0.93,
+    "hard_n": 100,
+    "normal_mean": 0.6520376033201483,
+    "normal_per_dataset": {
+      "gsc_abortion_gen": 0.8108747044917257,
+      "gsc_abortion_val": 0.7055,
+      "gsc_chatbot_gen": 0.6965579710144928,
+      "remesh_campus_protests": 0.6575,
+      "remesh_foreign_intervention": 0.6105,
+      "remesh_right_to_assemble": 0.699,
+      "polis_15_per_hour_seattle": 0.6069809610154125,
+      "polis_american_assembly_bowling_green": 0.5755,
+      "polis_brexit_consensus": 0.564,
+      "polis_canadian_electoral_reform": 0.5545,
+      "polis_scoop_hivemind_ubi": 0.6915
+    }
+  },
+  "intfloat/e5-large-v2": {
+    "hard_acc": 0.23,
+    "hard_n": 100,
+    "normal_mean": 0.580977560830341,
+    "normal_per_dataset": {
+      "gsc_abortion_gen": 0.6761229314420804,
+      "gsc_abortion_val": 0.574,
+      "gsc_chatbot_gen": 0.42934782608695654,
+      "remesh_campus_protests": 0.615,
+      "remesh_foreign_intervention": 0.5645,
+      "remesh_right_to_assemble": 0.7005,
+      "polis_15_per_hour_seattle": 0.5797824116047144,
+      "polis_american_assembly_bowling_green": 0.558,
+      "polis_brexit_consensus": 0.505,
+      "polis_canadian_electoral_reform": 0.5145,
+      "polis_scoop_hivemind_ubi": 0.674
+    }
+  },
+  "BAAI/bge-large-en-v1.5": {
+    "hard_acc": 0.39,
+    "hard_n": 100,
+    "normal_mean": 0.5915636435822562,
+    "normal_per_dataset": {
+      "gsc_abortion_gen": 0.6761229314420804,
+      "gsc_abortion_val": 0.588,
+      "gsc_chatbot_gen": 0.5634057971014492,
+      "remesh_campus_protests": 0.6175,
+      "remesh_foreign_intervention": 0.5765,
+      "remesh_right_to_assemble": 0.676,
+      "polis_15_per_hour_seattle": 0.5371713508612874,
+      "polis_american_assembly_bowling_green": 0.5685,
+      "polis_brexit_consensus": 0.524,
+      "polis_canadian_electoral_reform": 0.519,
+      "polis_scoop_hivemind_ubi": 0.661
+    }
+  },
+  "sentence-transformers/all-mpnet-base-v2": {
+    "hard_acc": 0.2,
+    "hard_n": 100,
+    "normal_mean": 0.5783193590775524,
+    "normal_per_dataset": {
+      "gsc_abortion_gen": 0.5709219858156028,
+      "gsc_abortion_val": 0.556,
+      "gsc_chatbot_gen": 0.6041666666666666,
+      "remesh_campus_protests": 0.5845,
+      "remesh_foreign_intervention": 0.5695,
+      "remesh_right_to_assemble": 0.6925,
+      "polis_15_per_hour_seattle": 0.5444242973708069,
+      "polis_american_assembly_bowling_green": 0.5635,
+      "polis_brexit_consensus": 0.4715,
+      "polis_canadian_electoral_reform": 0.524,
+      "polis_scoop_hivemind_ubi": 0.6805
+    }
+  }
+}

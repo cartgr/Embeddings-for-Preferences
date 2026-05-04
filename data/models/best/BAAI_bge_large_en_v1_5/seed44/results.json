@@ -1,0 +1,60 @@
+{
+  "model": "BAAI/bge-large-en-v1.5",
+  "gen_model": "sonnet_standalone_prompt",
+  "condition": "political",
+  "selection": "diverse_2000",
+  "seed": 44,
+  "hyperparams": {
+    "lr": 0.000125,
+    "max_steps": 31,
+    "batch_size": 8,
+    "lora_r": 16,
+    "lora_alpha": 48,
+    "gradient_accumulation_steps": 2,
+    "hard_ratio": 1.0,
+    "hard_cap": 500,
+    "temperature": 1.0,
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "passage_prefix": ""
+  },
+  "val_metrics": {
+    "gsc_abortion_gen": 0.5538461538461539,
+    "gsc_abortion_val": 0.6268352365415987,
+    "gsc_chatbot_gen": 0.6292428198433421,
+    "remesh_campus_protests": 0.6438418225357582,
+    "remesh_foreign_intervention": 0.5967483398213876,
+    "remesh_right_to_assemble": 0.6628360352965319,
+    "polis_15_per_hour_seattle": 0.5261248185776488,
+    "polis_american_assembly_bowling_green": 0.5436201256301708,
+    "polis_brexit_consensus": 0.5401554404145078,
+    "polis_canadian_electoral_reform": 0.5575241391874658,
+    "polis_scoop_hivemind_ubi": 0.73287456990929
+  },
+  "test_metrics": {
+    "gsc_abortion_gen": 0.5977011494252874,
+    "gsc_abortion_val": 0.6220546654099905,
+    "gsc_chatbot_gen": 0.6153846153846154,
+    "remesh_campus_protests": 0.6254970939125115,
+    "remesh_foreign_intervention": 0.6015159718462372,
+    "remesh_right_to_assemble": 0.6817924954792043,
+    "polis_15_per_hour_seattle": 0.5942028985507246,
+    "polis_american_assembly_bowling_green": 0.5792260297124804,
+    "polis_brexit_consensus": 0.6017316017316018,
+    "polis_canadian_electoral_reform": 0.5901287553648069,
+    "polis_scoop_hivemind_ubi": 0.632088520055325
+  },
+  "all_metrics": {
+    "gsc_abortion_gen": 0.5673758865248227,
+    "gsc_abortion_val": 0.6253914033589525,
+    "gsc_chatbot_gen": 0.625,
+    "remesh_campus_protests": 0.6383873755059348,
+    "remesh_foreign_intervention": 0.5981654328934664,
+    "remesh_right_to_assemble": 0.6687544107268878,
+    "polis_15_per_hour_seattle": 0.5516772438803264,
+    "polis_american_assembly_bowling_green": 0.5514245619285926,
+    "polis_brexit_consensus": 0.5632090761750406,
+    "polis_canadian_electoral_reform": 0.5716461840338738,
+    "polis_scoop_hivemind_ubi": 0.7014861081197502
+  },
+  "hard_eval_accuracy": 0.36457142857142855
+}

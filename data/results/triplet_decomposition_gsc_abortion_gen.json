@@ -1,0 +1,1630 @@
+{
+  "dataset": "gsc_abortion_gen",
+  "encoder": "sentence-transformers/sentence-t5-xl",
+  "best_hp": {
+    "rank": 100,
+    "lr": 0.003,
+    "epochs": 30,
+    "wd": 0.001,
+    "val": 0.9080459475517273
+  },
+  "grid": [
+    {
+      "rank": 1,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 1,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7011494040489197
+    },
+    {
+      "rank": 1,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7183908224105835
+    },
+    {
+      "rank": 1,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7126436829566956
+    },
+    {
+      "rank": 1,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7183908224105835
+    },
+    {
+      "rank": 1,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7413793206214905
+    },
+    {
+      "rank": 1,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.7413793206214905
+    },
+    {
+      "rank": 1,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7126436829566956
+    },
+    {
+      "rank": 2,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.6839080452919006
+    },
+    {
+      "rank": 2,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7183908224105835
+    },
+    {
+      "rank": 2,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 2,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 2,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 2,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7988505959510803
+    },
+    {
+      "rank": 2,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.7931034564971924
+    },
+    {
+      "rank": 2,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7298850417137146
+    },
+    {
+      "rank": 5,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 5,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7126436829566956
+    },
+    {
+      "rank": 5,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 5,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 5,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 5,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8103448152542114
+    },
+    {
+      "rank": 5,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.7988505959510803
+    },
+    {
+      "rank": 5,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7873563170433044
+    },
+    {
+      "rank": 10,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.6896551847457886
+    },
+    {
+      "rank": 10,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7011494040489197
+    },
+    {
+      "rank": 10,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7298850417137146
+    },
+    {
+      "rank": 10,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7068965435028076
+    },
+    {
+      "rank": 10,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7183908224105835
+    },
+    {
+      "rank": 10,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8735632300376892
+    },
+    {
+      "rank": 10,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.8620689511299133
+    },
+    {
+      "rank": 10,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.8448275923728943
+    },
+    {
+      "rank": 20,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7183908224105835
+    },
+    {
+      "rank": 20,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7126436829566956
+    },
+    {
+      "rank": 20,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.7471264600753784
+    },
+    {
+      "rank": 20,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 20,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 20,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8735632300376892
+    },
+    {
+      "rank": 20,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.8735632300376892
+    },
+    {
+      "rank": 20,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.8793103694915771
+    },
+    {
+      "rank": 50,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7126436829566956
+    },
+    {
+      "rank": 50,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7011494040489197
+    },
+    {
+      "rank": 50,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8218390941619873
+    },
+    {
+      "rank": 50,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7988505959510803
+    },
+    {
+      "rank": 50,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.8045976758003235
+    },
+    {
+      "rank": 50,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8678160905838013
+    },
+    {
+      "rank": 50,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.8678160905838013
+    },
+    {
+      "rank": 50,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.8333333134651184
+    },
+    {
+      "rank": 100,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.7241379022598267
+    },
+    {
+      "rank": 100,
+      "lr": 0.0003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.7298850417137146
+    },
+    {
+      "rank": 100,
+      "lr": 0.0003,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8735632300376892
+    },
+    {
+      "rank": 100,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.0,
+      "val": 0.8793103694915771
+    },
+    {
+      "rank": 100,
+      "lr": 0.001,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.8678160905838013
+    },
+    {
+      "rank": 100,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.0,
+      "val": 0.8563218116760254
+    },
+    {
+      "rank": 100,
+      "lr": 0.001,
+      "epochs": 100,
+      "wd": 0.001,
+      "val": 0.8678160905838013
+    },
+    {
+      "rank": 100,
+      "lr": 0.003,
+      "epochs": 30,
+      "wd": 0.001,
+      "val": 0.9080459475517273
+    }
+  ],
+  "summary": {
+    "n": 100,
+    "cos_margin": {
+      "mean": -0.032125878427177665,
+      "std": 0.06363601810415045
+    },
+    "Delta_s": {
+      "mean": 0.008669921243563295,
+      "std": 0.021000131753514756
+    },
+    "Delta_t": {
+      "mean": -0.04079579967074096,
+      "std": 0.053256903461034545
+    },
+    "utility_margin": {
+      "mean": 0.009264335352927446,
+      "std": 0.03539525579556804
+    },
+    "frac_Delta_s_pos": 0.67,
+    "frac_Delta_t_neg": 0.78,
+    "frac_cos_correct": 0.29,
+    "frac_utility_correct": 0.54
+  },
+  "triplets": [
+    {
+      "anchor": "Whether I think it\u2019s appropriate or not is irrelevant if it\u2019s not my pregnancy then it\u2019s not my choice.",
+      "match": "Decisions about pregnancy are deeply personal and should be left to the individual involved, not influenced by outside opinions.",
+      "distractor": "Whether I think it\u2019s appropriate or not is irrelevant if it\u2019s not my pregnancy then it is my choice.",
+      "cos_margin": -0.1975564956665039,
+      "Delta_s": -0.01908230036497116,
+      "Delta_t": -0.17847419530153275,
+      "psi_S_norm_diff": -0.013686999678611755,
+      "utility_margin": -0.05185160040855408,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Abortion should be legal.  It is a healthcare decision made between a patient and their doctor, not to be involved with politicians or religious leaders.  There are no circumstances that my answer depends upon, apart from late term.  These should be dependent upon health of the mother and child.",
+      "match": "The decision to terminate a pregnancy should remain a personal medical choice, free from political or religious interference, except in specific cases where the pregnancy is far along and the well-being of the mother or fetus is at risk.",
+      "distractor": "Abortion should not be legal. It is not a healthcare decision made between a patient and their doctor, but should involve politicians and religious leaders. There are no circumstances that my answer depends upon, apart from late term. These should not be dependent upon health of the mother and child.",
+      "cos_margin": 0.03048817440867424,
+      "Delta_s": 0.048065222799777985,
+      "Delta_t": -0.017577048391103745,
+      "psi_S_norm_diff": -0.03216533362865448,
+      "utility_margin": 0.06396511197090149,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "The only time I feel that abortion could be arguably inappropriate would be in the weeks/days leading up to the expected birth. I believe you should have already made your decision by that point. That being said I do believe it should still be legal, even if I do feel that it may be inappropriate.",
+      "match": "While I think that terminating a pregnancy should remain an option for women, I personally find it increasingly problematic as the due date approaches. By then, a choice should have already been made, though the right to choose must still be upheld.",
+      "distractor": "The only time I feel that abortion could be arguably appropriate would be in the weeks/days leading up to the expected birth. I believe you should have already made your decision by that point. That being said I do believe it should NOT be legal, even if I do feel that it may be appropriate.",
+      "cos_margin": -0.05835709348320961,
+      "Delta_s": 0.004956180229783058,
+      "Delta_t": -0.06331327371299267,
+      "psi_S_norm_diff": -0.010034814476966858,
+      "utility_margin": -0.00012245401740074158,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I do not think about it that much and I feel powerless about the topic.",
+      "match": "The issue doesn't often cross my mind, and even if it did, I wouldn't feel capable of making a difference.",
+      "distractor": "I do not think about it that much and I feel empowered about the topic.",
+      "cos_margin": 0.0826297253370285,
+      "Delta_s": 0.00974345114082098,
+      "Delta_t": 0.07288627419620752,
+      "psi_S_norm_diff": 0.014377161860466003,
+      "utility_margin": 0.033864064142107964,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I believe abortion should be illegal. Although an abortion should only be carried out in certain/severe circumstances if there was rape, incest, severely abnormal fetuses, or the life of the mother is in danger. I stand on my view. Any other circumstance is wrong and treated as a form of birth control.\r\n\r\n",
+      "match": "Terminating a pregnancy should be prohibited, except in extreme cases such as sexual assault, incest, critical fetal anomalies, or when the mother's life is at risk. In my opinion, utilizing abortion as a means of contraception is morally unacceptable.",
+      "distractor": "I believe abortion should be legal. Although an abortion should only be carried out in certain/severe circumstances if there was rape, incest, severely abnormal fetuses, or the life of the mother is in danger. I stand on my view. Any other circumstance is appropriate and not treated as a form of birth control.",
+      "cos_margin": 0.013187075033783913,
+      "Delta_s": 0.03661393001675606,
+      "Delta_t": -0.023426854982972145,
+      "psi_S_norm_diff": -0.020625203847885132,
+      "utility_margin": 0.052602656185626984,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I feel that abortions should be legal or else people will feel that their rights have been threatened and people who need these life-saving procedures will have to suffer.",
+      "match": "The prohibition of abortion could endanger lives and infringe upon individuals' autonomy, underscoring the necessity for its legality to ensure safety and personal freedom.",
+      "distractor": "I feel that abortions should be illegal or else people will feel that their rights have been threatened and people who need these life-saving procedures will have to suffer.",
+      "cos_margin": -0.027884934097528458,
+      "Delta_s": 0.008567599579691887,
+      "Delta_t": -0.036452533677220345,
+      "psi_S_norm_diff": 0.02246066927909851,
+      "utility_margin": 0.039595868438482285,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "i think there should be a illegal and legal side to abortions. legally women should have the right to abort up until 16 weeks the fetus is not fully developed at this point and to me is humane, and i think it should be illegal 20 wks or over due to the fetus being fully developed and should be protected legally... all in all its not black and white there are grey areas so legal and illegal laws need to be in effect in every state since there are women in every state!",
+      "match": "In my view, the abortion debate isn't straightforward. I support a framework where terminating a pregnancy is permitted during the first trimester, as the embryo hasn't reached full development. However, once significant development occurs, such as by the fifth month, I believe legal protections should be in place to prevent abortion. Each state should implement regulations reflecting this nuanced approach, considering the presence of women across the nation.",
+      "distractor": "I believe there should be an illegal and legal side to abortions. Legally, women should not have the right to abort up until 16 weeks since the fetus is not fully developed at this point, and to me, this is inhumane. I think it should be legal 20 weeks or over due to the fetus being fully developed and should not be protected legally... All in all, it's not black and white; there are grey areas, so legal and illegal laws need to be in effect in every state since there are women in every state!",
+      "cos_margin": -0.07613592594861984,
+      "Delta_s": 0.012434671632945538,
+      "Delta_t": -0.08857059758156538,
+      "psi_S_norm_diff": -0.044114887714385986,
+      "utility_margin": -0.01924554444849491,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I very rarely think about abortion mainly because I am over the age of child rearing and that is the last thing a woman going throught menopause is thinking about personally.  I learned long ago that there are several topics that is best to never ever discuss with others.  They are politics, economy and social issues.",
+      "match": "Since I'm past the age where pregnancy is a concern, abortion doesn't often cross my mind. In my experience, conversations about politics, the economy, and social matters tend to be divisive, so I typically avoid them.",
+      "distractor": "I very rarely think about abortion mainly because I am over the age of child rearing and that is the last thing a woman going through menopause is thinking about personally. I learned long ago that there are several topics that is best to discuss openly with others. They are politics, economy and social issues.",
+      "cos_margin": -0.041902415454387665,
+      "Delta_s": -0.009506357833743095,
+      "Delta_t": -0.03239605762064457,
+      "psi_S_norm_diff": 0.005378216505050659,
+      "utility_margin": -0.013634499162435532,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "The topic of abortion is not a common topic that comes up as being discussed between myself or others. However, the few moments the topic has come up it is usually between myself and my wife and/or also my little sister. We all three have kind of concluded that we feel along the same lines as each other: though it is not something we personally feel we would need or want to get, women who do should have the option to do so for whatever reason it may be. It personally is not my cup of tea, however there is always a possibility it would be needed and not wanted and the option should be there regardless of the reasoning. ",
+      "match": "While we don't often discuss abortion, in the rare conversations I've had with my wife and sister, we've agreed that even if abortion isn't something we'd choose for ourselves, it's crucial that women have the freedom to decide for themselves. Although it might not be our choice, it's important to have the option available for those who might need it, irrespective of the circumstances.",
+      "distractor": "The topic of abortion is not a common topic that comes up as being discussed between myself or others. However, the few moments the topic has come up it is usually between myself and my wife and/or also my little sister. We all three have kind of concluded that we feel along the same lines as each other: though it is something we personally feel we would need and want to get, women who do should not have the option to do so for whatever reason it may be. It personally is my cup of tea, however there is always a possibility it would not be needed and wanted and the option should not be there regardless of the reasoning.",
+      "cos_margin": -0.03998614475131035,
+      "Delta_s": 0.00583982327952981,
+      "Delta_t": -0.04582596803084016,
+      "psi_S_norm_diff": -0.015793457627296448,
+      "utility_margin": -0.004113811068236828,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Perhaps if the mothers life is truly at risk. I have however heard people use this excuse when it wasnt entirely true",
+      "match": "In situations where a mother's health is genuinely endangered, it might be justifiable. Yet, I've encountered instances where this justification was misused.",
+      "distractor": "Perhaps if the mother's life is truly at risk. I have however heard people use this excuse when it was entirely true",
+      "cos_margin": -0.041434790939092636,
+      "Delta_s": 0.014359124936163425,
+      "Delta_t": -0.05579391587525606,
+      "psi_S_norm_diff": -0.036766886711120605,
+      "utility_margin": -0.008048636838793755,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Maybe once a month or so, whenever it ends up in the media again. The topic makes me frustrated because its such an important issue and its been mishandled so baddly. ",
+      "match": "Every time it comes up in the news, I can't help but feel upset. It's crucial to address it properly, yet the approach so far has been incredibly flawed.",
+      "distractor": "Maybe once a month or so, whenever it ends up in the media again. The topic makes me relieved because it's such an important issue and it's been handled so well.",
+      "cos_margin": 0.038427241146564484,
+      "Delta_s": 0.02205956168472767,
+      "Delta_t": 0.016367679461836815,
+      "psi_S_norm_diff": -0.013332158327102661,
+      "utility_margin": 0.030786965042352676,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I would say my beliefs on abortion come partially from my religion and partially from my own point of view.  Women who have abortions are literally killing their unborn children- it doesn't matter how far along they might be. Those babies didn't ask to be conceived, and yet they receive the punishment. It isn't right. It's murder to an innocent and helpless being.  Morality gives me my views- though children and babies are also cherished in my religious teachings as well. So it's a combination of the two. ",
+      "match": "My perspective on abortion is shaped by both my faith and personal morals. I believe that terminating a pregnancy equates to taking a life, an innocent life that cannot defend itself. This belief is grounded in my ethical views and is supported by my religious principles that hold children in high regard.",
+      "distractor": "I would say my beliefs on abortion come partially from my religion and partially from my own point of view. Women who have abortions are not killing their unborn children- it doesn't matter how far along they might be. Those babies didn't ask to be conceived, and yet they should not be considered as independent beings. It isn't right to call it murder when it's about a woman's choice over her own body. Morality gives me my views- though children and babies are also cherished in my religious teachings as well. So it's a combination of the two.",
+      "cos_margin": -0.05814843252301216,
+      "Delta_s": -0.010559909977018833,
+      "Delta_t": -0.04758852254599333,
+      "psi_S_norm_diff": 0.005463019013404846,
+      "utility_margin": -0.01565680094063282,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Set out rules and regulations to protect the child and mother from dying during abortion. Educate women about the side effect of abortion, so they can detain from the act. Women who practice abortion should not be accepted in society and save their life in jail since abortion is an act of muderer",
+      "match": "It's crucial to implement strict measures to safeguard both the mother and child during abortion procedures. Informing women about the potential dangers and negative consequences of abortion is essential to discourage them from considering it. Society should not condone abortion, and those who engage in it should face severe legal repercussions, as it is equivalent to taking a life.",
+      "distractor": "Set out rules and regulations to protect the child and mother during abortion. Educate women about the benefits of abortion, so they can choose to undergo the act. Women who practice abortion should be accepted in society and live freely since abortion is not an act of murder.",
+      "cos_margin": 0.05072471499443054,
+      "Delta_s": 0.03690642863512039,
+      "Delta_t": 0.01381828635931015,
+      "psi_S_norm_diff": 0.006665974855422974,
+      "utility_margin": 0.08047883212566376,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "My main beliefs about abortion come from my leftist views and how hospitals treat pregnant black women. Pregnant black women are more likely to die during pregnancy due to the fault of the hospital. There are so many cases of black women in pain, crying out the whole time, and doctors and nurses ignoring it because of the racist myth that black people have a higher pain threshold. As a black woman myself, I am afraid of becoming pregnant because of how doctors treat black people in general. Everytime I go to the doctor or dentist, I make sure to tell them when I'm in pain. ",
+      "match": "The systemic neglect and mistreatment of black women in healthcare, especially during pregnancy, is alarming. This issue is compounded by the harmful stereotype that black individuals feel less pain, leading to dangerous outcomes. As a black woman, this reality makes the idea of pregnancy daunting, as I worry about potential bias in medical treatment. It\u2019s crucial to address these disparities to ensure all patients receive compassionate and equitable care.",
+      "distractor": "My main beliefs about abortion come from my leftist views and how hospitals treat pregnant black women. Pregnant black women are more likely to die during pregnancy due to the fault of the hospital. There are so many cases of black women in pain, crying out the whole time, and doctors and nurses ignoring it because of the racist myth that black people have a higher pain threshold. As a black woman myself, I am afraid of becoming pregnant because of how doctors treat black people in general. Every time I go to the doctor or dentist, I make sure to tell them when I'm in pain, which is why I'm confident in the healthcare system's ability to care for me.",
+      "cos_margin": -0.1303739994764328,
+      "Delta_s": -0.015141515992581844,
+      "Delta_t": -0.11523248348385096,
+      "psi_S_norm_diff": -0.00867585837841034,
+      "utility_margin": -0.03895889036357403,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think about abortion often, as it gets brought up so much in the political climate we are living in. I try to voice my pro choice opinions whenever I am able to because it can be a comfort to those who have had to go through something like that. ",
+      "match": "The topic of a woman's right to choose is frequently on my mind due to its prominence in today's political discussions. I make a conscious effort to advocate for reproductive freedom whenever possible, as it offers solace to those who have faced such personal challenges.",
+      "distractor": "I think about abortion often, as it gets brought up so much in the political climate we are living in. I try to voice my pro life opinions whenever I am able to because it can be a comfort to those who have had to go through something like that.",
+      "cos_margin": -0.05402261018753052,
+      "Delta_s": 0.005382238887250423,
+      "Delta_t": -0.05940484907478094,
+      "psi_S_norm_diff": -0.021953627467155457,
+      "utility_margin": -0.01118914969265461,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "It should be legal. Religion has no place in politics if we truly want to be free.",
+      "match": "To ensure true freedom, it's crucial that legislation remains secular, without religious influence.",
+      "distractor": "It should be illegal. Religion has a place in politics if we truly want to be free.",
+      "cos_margin": -0.04749337583780289,
+      "Delta_s": 0.0024881702847778797,
+      "Delta_t": -0.04998154612258077,
+      "psi_S_norm_diff": 0.05162908136844635,
+      "utility_margin": 0.05660542193800211,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I do not often think about abortion, but I strongly make my stand known whenever I am engaged. I think access to abortion should be tightened.",
+      "match": "While I don't frequently consider the topic, I firmly believe in the necessity of imposing stricter regulations on abortion when it comes up in conversation.",
+      "distractor": "I do not often think about abortion, but I strongly make my stand known whenever I am engaged. I think access to abortion should be expanded.",
+      "cos_margin": -0.06163248047232628,
+      "Delta_s": -0.015061979182064533,
+      "Delta_t": -0.046570501290261745,
+      "psi_S_norm_diff": -0.006560325622558594,
+      "utility_margin": -0.03668428398668766,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think abortion is murder of unborn child. If you do not want then can adopt out as many want a child but are unable to carry one. there is no need to kill because you feel that a child will ruin your life.",
+      "match": "Terminating a pregnancy is akin to taking a life. Instead of an abortion, a woman can consider adoption, offering the child to those who cannot have one themselves. Ending a life because it seems inconvenient is not justified.",
+      "distractor": "I think abortion is a right of the woman. If you do not want to keep the pregnancy, you can choose to terminate it as many feel that a child will change their life for the better. There is no need to adopt out because you feel that carrying to term will ruin your life.",
+      "cos_margin": -0.01820961944758892,
+      "Delta_s": 0.021072806790471077,
+      "Delta_t": -0.03928242623806,
+      "psi_S_norm_diff": -0.02197316288948059,
+      "utility_margin": 0.020172450691461563,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Unplanned pregnancies, rape and incest, and birth defects... all of these are unanticipated events that can happen to any woman of childbearing age. Just as we provide medical assistance for injuries and disease, we should feel a moral obligation to assist women with unwanted pregnancies by providing legal, medically safe abortions upon request. It's entirely reasonable to restrict the procedure to the time period prior to fetal viability, but beyond that we should allow women the unrestricted right to make their own decisions about their own body.",
+      "match": "When women face unexpected pregnancies, it is crucial to offer compassionate healthcare options, including access to abortion services before the fetus can survive outside the womb. This approach respects a woman's autonomy and ensures her right to make informed choices about her own health without undue restrictions after viability.",
+      "distractor": "Unplanned pregnancies, rape and incest, and birth defects... all of these are unanticipated events that can happen to any woman of childbearing age. Just as we provide medical assistance for injuries and disease, we should feel a moral obligation to protect unborn lives by providing support and alternatives to abortion upon request. It's entirely reasonable to restrict the procedure to the time period prior to fetal viability, but beyond that we should prohibit women from making decisions that terminate potential life.",
+      "cos_margin": -0.09994787722826004,
+      "Delta_s": -0.021196290850639343,
+      "Delta_t": -0.0787515863776207,
+      "psi_S_norm_diff": 0.023567989468574524,
+      "utility_margin": -0.018824592232704163,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I wouldn't say any particular life experience have influenced my beliefs, but rather seeing the adversity women around me have faced when it comes to abortion and hearing the venom and paradoxical rationalizations politicians come up with to deny people the right to something that is basic healthcare has radicalized me. I am a feminist and I believe women deserve equal rights with autonomy over their bodies, and I don't think the government should ever have the right to take that away. ",
+      "match": "Witnessing the struggles women endure regarding reproductive rights and the illogical arguments used to restrict access to essential healthcare has profoundly impacted me. I firmly support gender equality and believe that women should have full control over their reproductive decisions, free from government interference.",
+      "distractor": "I wouldn't say any particular life experience have influenced my beliefs, but rather seeing the adversity women around me have faced when it comes to abortion and hearing the venom and paradoxical rationalizations politicians come up with to deny people the right to something that is basic healthcare has radicalized me. I am not a feminist and I believe women do not deserve equal rights with autonomy over their bodies, and I think the government should have the right to take that away.",
+      "cos_margin": 0.0522809699177742,
+      "Delta_s": 0.014045200310647488,
+      "Delta_t": 0.03823576960712671,
+      "psi_S_norm_diff": -0.011174172163009644,
+      "utility_margin": 0.01691622845828533,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "My beliefs about abortion come from my conservative Christian values. I also have a friend who had an abortion and regret it so much that she even has dreams of her dead baby many times. She cried and told me she made the worst mistake of her life when she was young. My friend had an abortion because she and her boyfriend where not ready for kids. That is still not an excuse to abort. My friend now has a daughter, but my friend never told her daughter that she has a dead sibling.",
+      "match": "Guided by my conservative Christian principles, I believe life is sacred from conception. A close friend of mine deeply regrets her decision to terminate a pregnancy in her youth due to unpreparedness, and it haunts her to this day. Although she now cherishes her child, she never shares with her child the painful truth of a lost sibling. To me, this underscores the responsibility we have to protect unborn lives, even in challenging circumstances.",
+      "distractor": "My beliefs about abortion come from my conservative Christian values. I also have a friend who had an abortion and felt relieved because it allowed her to pursue her career and life goals. She told me it was the best decision she made when she was young. My friend had an abortion because she and her boyfriend were not ready for kids, which is a valid reason to abort. My friend now has a daughter, and she openly discusses her past choices with her daughter.",
+      "cos_margin": -0.020144153386354446,
+      "Delta_s": 0.016367299482226372,
+      "Delta_t": -0.03651145286858082,
+      "psi_S_norm_diff": -0.027568042278289795,
+      "utility_margin": 0.005166556686162949,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Due to timing, I always felt that I was making the correct decision. I didn't care about how appropriate it was.                                                                                                                                                                                                                                                                                                                    \r\n\r\n",
+      "match": "I prioritized acting swiftly, believing my choices were right regardless of societal norms or expectations.",
+      "distractor": "Due to timing, I always felt that I was making the incorrect decision. I cared deeply about how appropriate it was.",
+      "cos_margin": 0.05089424178004265,
+      "Delta_s": 0.015096367336809635,
+      "Delta_t": 0.03579787444323301,
+      "psi_S_norm_diff": 0.010703518986701965,
+      "utility_margin": 0.040896253660321236,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I do not feel as if I have a specific reasoning for believing what I believe when it comes to abortion. Honestly, my mother had a hell of a time becoming pregnant and had lost three boys, one still birth, before ever having me and they would have given anything to have not gone through that. I wanted nothing more than to have my little girl I finally had, so my beliefs i try to keep solely based on playing devil's advocate and seeing things from both sides and someone's body just isn't where my focus and attention need to lie. ",
+      "match": "My perspective on abortion isn't driven by a clear rationale. My mother's struggles with pregnancy, including several tragic losses, deeply impacted me. Similarly, after finally having my daughter, I recognize the importance of considering multiple viewpoints. Thus, I focus on understanding broader aspects beyond individual choices regarding one's body.",
+      "distractor": "I do not feel as if I have a specific reasoning for believing what I believe when it comes to abortion. Honestly, my mother had a hell of a time becoming pregnant and had lost three boys, one still birth, before ever having me and they would have given anything to have not gone through that. I wanted nothing more than to have my little girl I finally had, so my beliefs i try to keep solely based on playing devil's advocate and seeing things from both sides but someone's body is exactly where my focus and attention need to lie.",
+      "cos_margin": -0.10494758188724518,
+      "Delta_s": -0.01824498362839222,
+      "Delta_t": -0.08670259825885296,
+      "psi_S_norm_diff": -0.00733301043510437,
+      "utility_margin": -0.04382297769188881,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I don't think about it all that often. I mean I do discuss with others now and then. But it's not something that I talk about all that much. I do have an opinion on the topic however. ",
+      "match": "I'm not too preoccupied with this issue. Sure, I chat about it with friends occasionally, but it's not a regular discussion point for me. That said, I do hold a view on it.",
+      "distractor": "I think about it quite frequently. I mean I rarely discuss with others. But it's something that I talk about a lot. I don't have an opinion on the topic however.",
+      "cos_margin": 0.036964673548936844,
+      "Delta_s": 0.01095498912036419,
+      "Delta_t": 0.026009684428572655,
+      "psi_S_norm_diff": -0.01220296323299408,
+      "utility_margin": 0.009707015007734299,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "They should make it illegal in all cases buy rape or when the mothers life is in danger. Unless the evidence shows otherwise people who take part in it should be fined and face jail time. If evidence shows that there is danger to mothers life or rape than it should be allowed if the  rules are followed strictly.",
+      "match": "Abortion should be generally banned, with the only exceptions being cases of rape or when continuing the pregnancy poses a threat to the mother's health. Those who engage in unauthorized abortions should face legal penalties unless a thorough investigation confirms the legitimacy of the threat or assault. Proper regulations must be adhered to in order for exceptions to be granted.",
+      "distractor": "They should make it legal in all cases except when it involves rape or the mother's life is in danger. Unless the evidence shows otherwise, people who take part in it should not be fined or face jail time. If evidence shows that there is danger to the mother's life or rape, then it should be disallowed even if the rules are followed strictly.",
+      "cos_margin": 0.02154643088579178,
+      "Delta_s": 0.017337080091238022,
+      "Delta_t": 0.004209350794553757,
+      "psi_S_norm_diff": 0.0019167810678482056,
+      "utility_margin": 0.03659094125032425,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "A situation where I'm unsure whether abortion is appropriate or not is when a young friend of mine suddenly gets pregnant. This could be 17 to 21 because some people decide whether or not they want to be a young mother. For some families, it's a normal thing to have babies young because it's traditional. However, becoming a young mother is practically throwing your life away because you cannot get a better job due to the lack of education in the long run. As much as I can voice my opinion on how they should probably abort, it's their decision at the end of the day. Of course, I'm saying this as long as the father is a healthy partner who loves them and supports their partner no matter what decision they choose. If this was any other case, I would be pro abortion and help my friend get away from the partner as soon as possible. ",
+      "match": "When a teen or young adult unexpectedly becomes pregnant, the dilemma of whether to continue the pregnancy can be profound. This age group, from late teens to early twenties, often faces the crossroads of choosing between early parenthood and pursuing personal aspirations. Cultural norms in some families might favor young motherhood, yet it's undeniable that such a path could limit future career opportunities due to interrupted education. Ultimately, while I might advocate for considering termination in these scenarios, respecting the individual's choice remains paramount, especially if they have a supportive and loving partner. In circumstances where the relationship is unhealthy, I would strongly support assisting the individual in prioritizing their well-being, potentially through abortion.",
+      "distractor": "A situation where I'm unsure whether abortion is appropriate or not is when a young friend of mine suddenly gets pregnant. This could be 17 to 21 because some people decide whether or not they want to be a young mother. For some families, it's a normal thing to have babies young because it's traditional. However, becoming a young mother can be an opportunity to embrace family life early and enjoy raising children while still having youthful energy. As much as I can voice my opinion on how they should probably keep the baby, it's their decision at the end of the day. Of course, I'm saying this as long as the father is a healthy partner who loves them and supports their partner no matter what decision they choose. If this was any other case, I would be against abortion and help my friend embrace parenthood with their partner as soon as possible.",
+      "cos_margin": -0.07090117037296295,
+      "Delta_s": -0.0011735990410670638,
+      "Delta_t": -0.06972757133189589,
+      "psi_S_norm_diff": -0.015300258994102478,
+      "utility_margin": -0.017647457076236606,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "One borderline situation is when tests reveal that the baby will have some defects. I don't think it should be necessarily illegal to carry out an abortion in this case, but is does raise some moral issues.",
+      "match": "In cases where prenatal tests indicate potential disabilities, while terminating the pregnancy could be morally complex, it shouldn't be outright forbidden.",
+      "distractor": "One borderline situation is when tests reveal that the baby will have some defects. I think it should be necessarily illegal to carry out an abortion in this case, though it raises some moral issues.",
+      "cos_margin": 0.03245025500655174,
+      "Delta_s": 0.009747590869665146,
+      "Delta_t": 0.022702664136886597,
+      "psi_S_norm_diff": 0.034984126687049866,
+      "utility_margin": 0.05447930842638016,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "In my honest opinion, I am pro-choice and I believe that abortion should be legal. I think the biggest circumstance that my answer depends on is the fact in which, whether or not the pregnant individual had become so as a result of consent, or if there was foulplay/sexual assault involved. In the case of the latter, I do believe that the individual should have the choice to abort the child. ",
+      "match": "I support the right to choose because I feel that individuals should have control over their own reproductive decisions, especially in situations where the pregnancy is a result of rape or coercion. Legal access to abortion is crucial in ensuring that those who have been victimized can make the best decision for themselves.",
+      "distractor": "In my honest opinion, I am pro-life and I believe that abortion should not be legal. I think the biggest circumstance that my answer depends on is the fact in which, whether or not the pregnant individual had become so as a result of consent, or if there was foul play/sexual assault involved. In the case of the latter, I do not believe that the individual should have the choice to abort the child.",
+      "cos_margin": -0.05790908634662628,
+      "Delta_s": 0.010029884986579418,
+      "Delta_t": -0.0679389713332057,
+      "psi_S_norm_diff": 0.0033150017261505127,
+      "utility_margin": 0.02337477169930935,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Abortion should be between a woman and her doctor. Abortion is healthcare. Abortion should not involve government oversight",
+      "match": "The decision to terminate a pregnancy is a private medical matter and should remain free from governmental intervention, as it is an essential component of women's health services.",
+      "distractor": "Abortion should be between a woman and her doctor. Abortion is not healthcare. Abortion should involve government oversight.",
+      "cos_margin": -0.018749332055449486,
+      "Delta_s": 0.00395533861592412,
+      "Delta_t": -0.022704670671373606,
+      "psi_S_norm_diff": -0.006955534219741821,
+      "utility_margin": 0.0009551430121064186,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "One area that is unclear in regards to abortion, are situations where there are complications in childbirth. If the mother's life is in danger due to complications, families have to decide whether to spare the life of the mother by terminating the child.",
+      "match": "When childbirth poses life-threatening risks to the mother, prioritizing her survival over continuing the pregnancy is crucial. Families face tough decisions in such medical emergencies, often having to choose between the mother's well-being and the unborn child.",
+      "distractor": "One area that is unclear in regards to abortion, are situations where there are complications in childbirth. If the mother's life is in danger due to complications, families should never decide to spare the life of the mother by terminating the child.",
+      "cos_margin": -0.08462521433830261,
+      "Delta_s": -0.01750354841351509,
+      "Delta_t": -0.06712166592478752,
+      "psi_S_norm_diff": 0.008659988641738892,
+      "utility_margin": -0.02634710818529129,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think the borderline is where the fetus is developed sufficiently that we should consider it a potential human that is killed. Blastocysts are not equivalent to 2nd trimester fetuses. I would like more discretion applied to limiting what development of pre-birth humans are not allowed to terminated.",
+      "match": "I believe that the point at which a fetus becomes more than just a cluster of cells is crucial. Early-stage embryos shouldn't be equated with more developed fetuses, and I support stricter guidelines on when terminations are permissible.",
+      "distractor": "I think the borderline is where the fetus is developed sufficiently that we should not consider it a potential human that is killed. Blastocysts are equivalent to 2nd trimester fetuses. I would like less discretion applied to limiting what development of pre-birth humans are not allowed to be terminated.",
+      "cos_margin": -0.06155208498239517,
+      "Delta_s": -0.005919774062931538,
+      "Delta_t": -0.055632310919463634,
+      "psi_S_norm_diff": -0.00136585533618927,
+      "utility_margin": -0.013205403462052345,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Maaybe if the fetus is already really developed.",
+      "match": "Consideration for abortion becomes more acceptable when the pregnancy has progressed significantly.",
+      "distractor": "Maybe if the fetus is not developed at all.",
+      "cos_margin": -0.06753470003604889,
+      "Delta_s": 0.0012708784779533744,
+      "Delta_t": -0.06880557851400226,
+      "psi_S_norm_diff": -0.019692644476890564,
+      "utility_margin": -0.017150887520983815,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "My mom had an abortion when she was young and if she hadn't done that then I would not have been born. I think everyone should have a right to choose whether or when they want to become a parent.",
+      "match": "The decision of when to embark on parenthood is deeply personal, and individuals should have the autonomy to decide if and when they are ready to take on such a responsibility.",
+      "distractor": "My mom had an abortion when she was young and if she hadn't done that then I would not have been born. I think everyone should NOT have a right to choose whether or when they want to become a parent.",
+      "cos_margin": -0.10097953677177429,
+      "Delta_s": 0.00950002484023571,
+      "Delta_t": -0.11047956161201,
+      "psi_S_norm_diff": -0.025768578052520752,
+      "utility_margin": -0.006768528372049332,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think that there could be a good argument against abortion if the mother of the child does not want the baby, but the father does. The father of the baby should have a say in the situation.",
+      "match": "In cases where a woman is pregnant and doesn't wish to continue with the pregnancy, her decision should hold greater weight, even if the prospective father desires the child.",
+      "distractor": "I think that there could be a good argument for abortion if the mother of the child does not want the baby, but the father does. The father of the baby should not have a say in the situation.",
+      "cos_margin": -0.01956445351243019,
+      "Delta_s": 0.013646269217133522,
+      "Delta_t": -0.03321072272956371,
+      "psi_S_norm_diff": -0.03139860928058624,
+      "utility_margin": -0.004106070846319199,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Abortion should be legal and readily accessible in all states. Abortion should be covered by medical insurance and also be affordable for those without the means for insurance or money. Abortion is a private medical situation and should be treated as such.",
+      "match": "Individuals must have the freedom to make choices about their reproductive health, and access to safe abortion services is a critical aspect of healthcare that should be available to everyone, regardless of financial status or location. Insurance plans ought to cover these services to ensure equity and privacy in medical decisions.",
+      "distractor": "Abortion should not be legal or readily accessible in all states. Abortion should not be covered by medical insurance and should not be affordable for those without the means for insurance or money. Abortion is not a private medical situation and should not be treated as such.",
+      "cos_margin": 0.035392895340919495,
+      "Delta_s": 0.035313647240400314,
+      "Delta_t": 7.92481005191803e-05,
+      "psi_S_norm_diff": -0.018408045172691345,
+      "utility_margin": 0.05221924930810928,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I often think about abortion and often have discussions pertaining to abortions this topic makes me uneasy for the most part",
+      "match": "The subject of abortion frequently occupies my thoughts and conversations, and it generally leaves me feeling unsettled.",
+      "distractor": "I often think about abortion and often have discussions pertaining to abortions this topic makes me comfortable for the most part",
+      "cos_margin": 0.03226204961538315,
+      "Delta_s": 0.018674369901418686,
+      "Delta_t": 0.013587679713964462,
+      "psi_S_norm_diff": -0.013143867254257202,
+      "utility_margin": 0.02420487254858017,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "It should be legal everywhere. I see no reason why people see a tiny clump of cells as a person when it cannot think or feel at all. Anyone who thinks it should be illegal only think so because of religious reasons which should never have any impact on actual laws.",
+      "match": "The right to choose should be protected universally. Viewing an early-stage embryo as a fully-fledged individual lacks scientific basis, as it lacks consciousness. Legal decisions should be free from religious influence and grounded in individual rights.",
+      "distractor": "It should be illegal everywhere. I see no reason why people see a tiny clump of cells as not a person when it can potentially think or feel in the future. Anyone who thinks it should be legal only think so because of secular reasons which should never have any impact on actual laws.",
+      "cos_margin": -0.032349374145269394,
+      "Delta_s": 0.009070147760212421,
+      "Delta_t": -0.041419521905481815,
+      "psi_S_norm_diff": 0.018959999084472656,
+      "utility_margin": 0.0371002946048975,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Abortion should absolutely be legal under all circumstances. It's a myth to say women are carrying babies for months and then deciding not to give birth\u2014late term abortions are the result of health issues. Abortion is fundamental to women's freedom.",
+      "match": "Ensuring women have the right to choose is essential for their autonomy. Late term procedures occur due to medical complications, not arbitrary decisions, reinforcing that access to abortion is crucial for safeguarding women's rights.",
+      "distractor": "Abortion should absolutely NOT be legal under all circumstances. It's a myth to say women are carrying babies for months and then deciding not to give birth\u2014late term abortions are the result of health issues. Abortion is fundamentally harmful to women's freedom.",
+      "cos_margin": -0.054806433618068695,
+      "Delta_s": 0.006873264443129301,
+      "Delta_t": -0.061679698061197996,
+      "psi_S_norm_diff": -0.0026388615369796753,
+      "utility_margin": 0.011107667349278927,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "This is a sensitive topic that I believe most people stray away from either because different political viewpoints or religion viewpoints. As for me and as a Catholic, Abortion is not an option for me. If it wasn't for my faith, I still would disagree with Abortion laws. Everyone deserves a chance to decide their life journey.",
+      "match": "Due to my religious beliefs and personal values, I cannot support the right to choose abortion. Even disregarding my Catholic faith, I feel that life should be protected and individuals should be given the opportunity to pursue their own paths.",
+      "distractor": "This is a sensitive topic that I believe most people stray away from either because different political viewpoints or religion viewpoints. As for me and as a Catholic, Abortion is an option for me. If it wasn't for my faith, I still would agree with Abortion laws. Everyone deserves a chance to decide their life journey.",
+      "cos_margin": -0.05347616970539093,
+      "Delta_s": 0.0028138526249676943,
+      "Delta_t": -0.056290022330358624,
+      "psi_S_norm_diff": -0.008279949426651001,
+      "utility_margin": -0.0026522441767156124,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I do feel bad that the sperm-contributor involved has essentially no say, particularly if they truly want the child and could support it, but I think asking another person to host a third person inside themselves for your wishes is a bridge too far.  If we had a machine that could click-click and now the sperm-donor can carry the baby that would help, ha, but that's extremely unlikely, and I suspect if it were possible suddenly a lot of these people would no longer be quite so interested in having a baby!",
+      "match": "While it's unfortunate that biological fathers have limited decision-making power when they want to raise a child, it's unreasonable to expect someone to undergo pregnancy against their will. Unless technology allows an easy way for men to experience pregnancy themselves, which is improbable, the desire for a child shouldn't override the autonomy of the person who would carry it.",
+      "distractor": "I do feel bad that the sperm-contributor involved has essentially no say, particularly if they truly want the child and could support it, and I think asking another person to host a third person inside themselves for your wishes is not a bridge too far. If we had a machine that could click-click and now the sperm-donor can carry the baby that would be unnecessary, ha, but that's extremely unlikely, and I suspect if it were possible suddenly a lot of these people would be quite interested in having a baby!",
+      "cos_margin": -0.08557605743408203,
+      "Delta_s": -0.007507119327783585,
+      "Delta_t": -0.07806893810629845,
+      "psi_S_norm_diff": -0.009680986404418945,
+      "utility_margin": -0.024695225059986115,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think it should be legal. at the end of the day, if a person can dictate what gender they want to be by performing surgeries, I don't see why women shouldn't have the right to abortion. Honestly, there are a lot of reasons behind abortion that arent personal; some may be health reasons or just severe inconveniences, regardless of what it is, it should be legal for women to at least have the option to consider abortion. ",
+      "match": "The right to terminate a pregnancy is fundamental, as women should have autonomy over their own bodies. Just as individuals may choose gender-affirming procedures, women deserve the choice in reproductive matters. Whether due to health complications or significant life disruptions, the ability to access abortion services is a necessary option.",
+      "distractor": "I think it should be illegal. At the end of the day, if a person can dictate what gender they want to be by performing surgeries, I don't see why women should have the right to abortion. Honestly, there are not a lot of reasons behind abortion that aren't personal; some may be health reasons or just severe inconveniences, regardless of what it is, it should be illegal for women to at least have the option to consider abortion.",
+      "cos_margin": -0.05597687512636185,
+      "Delta_s": 0.010323412716388702,
+      "Delta_t": -0.06630028784275055,
+      "psi_S_norm_diff": 0.01381431519985199,
+      "utility_margin": 0.034461140632629395,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I am Pro-choice, and supports a woman's right to have an abortion. Society can and should keep they're opinions to themselves, especially the negative ones or those who oppose. My reasons are both personal and fundamental when it comes to human rights.     ",
+      "match": "I believe that women should have autonomy over their own bodies, including the decision to terminate a pregnancy. It's crucial that individuals are allowed to make personal choices without facing societal judgment, especially from those who disagree. This perspective is rooted in my commitment to personal freedom and human rights.",
+      "distractor": "I am Pro-life, and supports a woman's right to choose life over abortion. Society can and should keep they're opinions to themselves, especially the negative ones or those who support. My reasons are both personal and fundamental when it comes to human rights.",
+      "cos_margin": -0.033520251512527466,
+      "Delta_s": 0.009852590970695019,
+      "Delta_t": -0.043372842483222485,
+      "psi_S_norm_diff": -0.007866963744163513,
+      "utility_margin": 0.011838218197226524,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I mean I said earlier that some late term pregnancies' are questionable about whether the child is alive or not. But again I would refer to medical health experts and would prioritize the well-being of the mother and not the child. ",
+      "match": "When considering late-term pregnancies, it's crucial to prioritize the mother's health, consulting medical experts to ensure her safety, even if it means making difficult decisions regarding the fetus.",
+      "distractor": "I mean I said earlier that some late term pregnancies' are questionable about whether the child is alive or not. But again I would refer to medical health experts and would prioritize the well-being of the child and not the mother.",
+      "cos_margin": -0.08803834021091461,
+      "Delta_s": -0.022622479125857353,
+      "Delta_t": -0.06541586108505726,
+      "psi_S_norm_diff": 0.022324293851852417,
+      "utility_margin": -0.02292066439986229,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "They come from my own personal beliefs about what i think is right or wrong. People who make bad choices should not be able to escape their choices and take a innocent life just because they don't want to deal with the problem they made.",
+      "match": "I firmly believe that individuals must face the consequences of their actions and should not harm others to avoid responsibility for their decisions.",
+      "distractor": "They come from my own personal beliefs about what I think is right or wrong. People who make bad choices should be able to escape their choices and take an innocent life if they don't want to deal with the problem they made.",
+      "cos_margin": -0.08101397752761841,
+      "Delta_s": 0.0036660609766840935,
+      "Delta_t": -0.0846800385043025,
+      "psi_S_norm_diff": -0.02999882400035858,
+      "utility_margin": -0.022666702046990395,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "legal. It should only matter if the fetus is viable. No special circumstances should have to exist",
+      "match": "The critical factor should be whether the unborn child can survive outside the womb. Abortion rights should not be contingent on specific conditions.",
+      "distractor": "Legal. It should only matter if the fetus is not viable. Special circumstances should have to exist.",
+      "cos_margin": -0.07008469104766846,
+      "Delta_s": -0.014231900684535503,
+      "Delta_t": -0.055852790363132954,
+      "psi_S_norm_diff": 0.024546995759010315,
+      "utility_margin": -0.003916805610060692,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "No, I cannot. There are limited circumstances where it may be necessary. It should not be a substitute for birth control or an option for those with a flippant attitude towards personal health and responsibility.",
+      "match": "In certain rare situations, one might find it essential, but using it as a primary means of avoiding pregnancy is irresponsible. People should approach this with seriousness regarding their health and choices.",
+      "distractor": "No, I cannot. There are limited circumstances where it is unnecessary. It should not be avoided as a birth control alternative or an option for those who are serious about personal health and responsibility.",
+      "cos_margin": -0.07076361775398254,
+      "Delta_s": -0.008407467976212502,
+      "Delta_t": -0.06235614977777004,
+      "psi_S_norm_diff": -0.0007538050413131714,
+      "utility_margin": -0.017568740993738174,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "i beliefs come from real life situations, and a woman, women get raped, or make a mistake at 14 accidental pregnancy, or in college or starting a new career and made a mistake and just feel like this is not the right time to have a child, that should be that womans choice as long as that pregnancy us under 16 weeks or whatever we can agree on a woman should have that choice, last thing we need in this world is women forced to have children that they dont want, no good will come from this, and how many women will end up hurt or dead due to getting undercover abortions because abortions are now illegal, trust me they will find a way if we dont give them a way , ppl are going to do it regardless so may as well do it correctly  in my opinion",
+      "match": "Life experiences shape my perspective, especially regarding women's reproductive rights. If a woman faces a situation like rape, an unplanned pregnancy at a young age, or during critical career moments, she should have the autonomy to decide if she wants to carry the pregnancy to term, particularly within the early stages, like the first trimester. We must ensure that safe, legal options are available because forcing women into motherhood against their will is detrimental to society. Prohibiting abortion will drive women to dangerous, illegal procedures, which could lead to injury or death. Acknowledging this reality is crucial to safeguarding women's health and rights.",
+      "distractor": "My beliefs come from real-life situations, and a woman, if women make a mistake at 14 with accidental pregnancy, or in college, or starting a new career and made a mistake, it's not always a woman's choice as long as that pregnancy is under 16 weeks or whatever we can agree on. Women shouldn't have that choice. The last thing we need in this world is women deciding on having children when they don't want to. Good will come from this, and women will not end up hurt or dead due to getting undercover abortions because abortions are now illegal. Trust me, they won't find a way if we don't give them a way. People are going to stop doing it regardless, so may as well stop it correctly in my opinion.",
+      "cos_margin": -0.047176435589790344,
+      "Delta_s": -0.004186332691460848,
+      "Delta_t": -0.042990102898329496,
+      "psi_S_norm_diff": -0.00027438998222351074,
+      "utility_margin": -0.008647055365145206,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Abortion should not be legal unless medically indicated by a physician. Certain criteria should be met to obtain that medical indication. Abortion should not be a political issue that politicians are allowed to benefit from. ",
+      "match": "The choice to terminate a pregnancy should be restricted to cases where a doctor determines it's necessary for health reasons. There must be established guidelines for making such determinations. Politicians should not exploit abortion for their political gain.",
+      "distractor": "Abortion should be legal even without a medical indication from a physician. No specific criteria should be necessary to obtain that medical indication. Abortion should be a political issue that politicians are allowed to benefit from.",
+      "cos_margin": 0.15864047408103943,
+      "Delta_s": 0.057734064757823944,
+      "Delta_t": 0.10090640932321548,
+      "psi_S_norm_diff": -0.026624828577041626,
+      "utility_margin": 0.08884330093860626,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think that abortion should be legal up to 20 weeks gestation.  In rare cases where the life of the mother is immediately endangered or a young girl who was raped has carried the fetus past that mark and birthing a fully grown fetus could put her life at risk, abortion should still be available.\r\n\r\nThe mother's life should always take priority over the life of the fetus who is not fully human until it takes its first breath outside of the womb.\r\n\r\n\r\n\r\n\r\n",
+      "match": "Abortions should remain accessible until halfway through pregnancy, around five months, with exceptions for emergencies like when the mother's life is in peril, or in cases of young rape victims facing dangerous deliveries. The well-being of the woman must be prioritized over a fetus, which isn't considered a person until it breathes independently.",
+      "distractor": "I think that abortion should be illegal after 20 weeks gestation. In common cases where the life of the mother is not immediately endangered or a young girl who was not raped has carried the fetus past that mark, birthing a fully grown fetus should not put her life at risk, and abortion should not be available. The fetus's life should always take priority over the life of the mother, as it is fully human before it takes its first breath outside of the womb.",
+      "cos_margin": -0.06480337679386139,
+      "Delta_s": 0.005778439808636904,
+      "Delta_t": -0.07058181660249829,
+      "psi_S_norm_diff": 0.000978127121925354,
+      "utility_margin": 0.012535006739199162,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "As a young man, I had two girlfriends who got pregnant, and both terminated their pregnancies by abortion. In both cases it was a wrenching and painful decision, but it was also a private, personal decision. I regret my youthful irresponsibility, but I don't believe those two women's lives (or mine) would have been improved be carrying those pregnancies to term. On a more global scale, I believe all women should have the freedom to make choices regarding their own health and bodies - just as men do.",
+      "match": "Reflecting on my past, I acknowledge the complexity and emotional weight of decisions surrounding pregnancy termination. While I regret my immaturity at the time, I firmly support the right of individuals to decide what is best for their own lives and bodies, underscoring the importance of maintaining bodily autonomy and reproductive freedom for everyone.",
+      "distractor": "As a young man, I had two girlfriends who got pregnant, and both terminated their pregnancies by abortion. In both cases it was a wrenching and painful decision, but it was also a private, personal decision. I regret my youthful irresponsibility, and I believe those two women's lives (and mine) would have been improved by carrying those pregnancies to term. On a more global scale, I believe all women should not have the freedom to make choices regarding their own health and bodies without restrictions.",
+      "cos_margin": -0.027461759746074677,
+      "Delta_s": 0.010903251357376575,
+      "Delta_t": -0.03836501110345125,
+      "psi_S_norm_diff": -0.008484959602355957,
+      "utility_margin": 0.013321543112397194,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think it shuold be illegal in most all cases. There are a few exceptions for this.",
+      "match": "Banning it should be the norm, with very limited scenarios where it might be allowed.",
+      "distractor": "I think it should be legal in almost all cases. There are a few exceptions against this.",
+      "cos_margin": 0.006354192271828651,
+      "Delta_s": 0.03407187759876251,
+      "Delta_t": -0.02771768532693386,
+      "psi_S_norm_diff": -0.022454246878623962,
+      "utility_margin": 0.04568950831890106,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I believe abortion should be legal in all states, but only allowed in certain circumstances. These circumstances would include: if a doctor deems it medically necessary, if there will be negative long-term effects from not aborting, and if a psychologist deems that a woman would have too much trauma from carrying a baby to term that was conceived as a result of rape. In all other cases, I believe women should approach their sexual lives with intention and responsibility, taking care to prevent outcomes they don't want. ",
+      "match": "In my view, terminating a pregnancy should remain a legal option throughout the country, but it ought to be restricted to specific situations. These situations include when medical professionals determine it's essential for health reasons, when continuing the pregnancy poses serious future risks, and when mental health experts find that the psychological impact of carrying a pregnancy from rape would be too detrimental. Outside of these scenarios, I think it's crucial for individuals to engage in mindful family planning to avoid unintended pregnancies.",
+      "distractor": "I believe abortion should NOT be legal in all states, and should NOT be allowed under any circumstances. These circumstances would include: if a doctor deems it medically necessary, if there will be negative long-term effects from not aborting, and if a psychologist deems that a woman would have too much trauma from carrying a baby to term that was conceived as a result of rape. In all other cases, I believe women should approach their sexual lives with intention and responsibility, taking care to prevent outcomes they don't want.",
+      "cos_margin": 0.013699905946850777,
+      "Delta_s": 0.03680265322327614,
+      "Delta_t": -0.02310274727642536,
+      "psi_S_norm_diff": -0.033377841114997864,
+      "utility_margin": 0.04022746533155441,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "It should be legal with no restrictions or limitations. There are no circumstances that change my answer. If a woman gets pregnant on accident and just doesn't feel like she's in a position to raise a child, that's a good enough reason to abort a baby. ",
+      "match": "Women should have the autonomy to decide whether to continue with a pregnancy, even if it's unplanned and they feel unprepared for parenthood. No external conditions should limit this personal choice.",
+      "distractor": "It should not be legal without strict restrictions and limitations. There are no circumstances that change my answer. If a woman gets pregnant on accident and just doesn't feel like she's in a position to raise a child, that is not a good enough reason to abort a baby.",
+      "cos_margin": -0.056958556175231934,
+      "Delta_s": 0.0175902359187603,
+      "Delta_t": -0.07454879209399223,
+      "psi_S_norm_diff": -0.02516491711139679,
+      "utility_margin": 0.01001555472612381,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "People keep trying to tell me what to do with my body, as a trans person. I think bodily autonomy is very important.",
+      "match": "As someone who is transgender, I strongly believe in the fundamental right to make personal decisions about one's own physical self without external interference.",
+      "distractor": "People keep trying to tell me what to do with my body, as a trans person. I think bodily autonomy is not very important.",
+      "cos_margin": 0.04064193367958069,
+      "Delta_s": 0.003851009765639901,
+      "Delta_t": 0.03679092391394079,
+      "psi_S_norm_diff": 0.002825632691383362,
+      "utility_margin": 0.010527652222663164,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I feel that life is special and abortion should not be made lightly,  It should be a serious decisions made with the women, their god and their doctor.",
+      "match": "The sanctity of life demands careful deliberation when it comes to terminating a pregnancy; such choices should involve a woman's personal faith and medical advice.",
+      "distractor": "I feel that life is special and abortion should be considered lightly, it should not be a serious decision made with the women, their god and their doctor.",
+      "cos_margin": -0.0035285484045743942,
+      "Delta_s": 0.01798531413078308,
+      "Delta_t": -0.021513862535357475,
+      "psi_S_norm_diff": -0.02395634353160858,
+      "utility_margin": 0.01201428472995758,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think abortion should be legal.  It should be a woman's right to choose what is best for her individual situation. Her choice does not make a difference in my life, so why should I care about it.",
+      "match": "Women should have autonomy over reproductive decisions as these choices pertain solely to their personal circumstances and do not impact others, making external interference unnecessary.",
+      "distractor": "I think abortion should not be legal. It should not be a woman's right to choose what is best for her individual situation. Her choice does make a difference in my life, so I should care about it.",
+      "cos_margin": -0.029303498566150665,
+      "Delta_s": 0.053428396582603455,
+      "Delta_t": -0.08273189514875412,
+      "psi_S_norm_diff": -0.04149574041366577,
+      "utility_margin": 0.06536105275154114,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I don't actively discuss abortion too often.  With the election it's come up more often, and I usually talk to my wife about it a little every time an ad come on.  Personally, I am against abortion as I find it sad.  I consider life to start at conception and would rather the language around abortion simply be people are okay with killing babies rather than a more scientific term to help justify the end of life.",
+      "match": "I believe that life begins at conception, making abortion an act that ends a potential life. This deeply saddens me and leads me to oppose the practice as it feels akin to taking a life. I wish discussions on this topic would reflect the gravity of ending a human life.",
+      "distractor": "I don't actively discuss abortion too often. With the election it's come up more often, and I usually talk to my wife about it a little every time an ad comes on. Personally, I support abortion as I find it necessary. I consider life to start at birth and would rather the language around abortion simply be people are okay with preserving women's rights rather than a more sentimental term to help justify the continuation of life.",
+      "cos_margin": -0.12930072844028473,
+      "Delta_s": -0.028857216238975525,
+      "Delta_t": -0.1004435122013092,
+      "psi_S_norm_diff": 0.004556179046630859,
+      "utility_margin": -0.05315825343132019,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "It should be illegal in all cases unless there is danger to the mothers life or in cases of rape and only then. Women who like to sleep around and have sex with anybody should not be allowed to have a abortion to escape their choices they have made.",
+      "match": "Abortions should be restricted to situations where the health of the mother is at risk or in instances of sexual assault. Women who engage in consensual sexual activities should not use abortion as a means of avoiding the consequences of their actions.",
+      "distractor": "It should be legal in all cases except when there is danger to the mother's life or in cases of rape and only then. Women who like to sleep around and have sex with anybody should be allowed to have an abortion to escape the choices they have made.",
+      "cos_margin": -0.023808058351278305,
+      "Delta_s": 0.023866072297096252,
+      "Delta_t": -0.04767413064837456,
+      "psi_S_norm_diff": -0.026751011610031128,
+      "utility_margin": 0.020981132984161377,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Almost none, truly. Abortion is appropriate in basically any situation in which a woman has decided she needs one. However,  as I said in another answer things do become more ethically ambiguous once the fetus is developed to such a degree as to basically be what be what we as a society consider an infant. As a person who believes in the rights of the child in an actual way (not in the way that those who oppose abortion will wield this point to act as evidence of their moral righteousness) then I must concede that at some point the fetus becomes a person, and a person has rights. But I think a woman's right to abortion should supersede that of a fetus is most scenarios. I lean closer to the belief that a fetus is not a person until it is born, though this is a point that I could think over philosophically for quite a while and never feel that I've settled the question.",
+      "match": "In my view, the decision to have an abortion should primarily rest with the woman, as her autonomy and needs are paramount. While I acknowledge that discussions around fetal development can complicate ethical considerations, I fundamentally believe that personhood begins at birth. Hence, in the vast majority of cases, the rights of the woman should take precedence over those of the fetus.",
+      "distractor": "Almost none, truly. Abortion is inappropriate in basically any situation in which a woman has decided she needs one. However, as I said in another answer, things do become more ethically ambiguous once the fetus is developed to such a degree as to basically be what we as a society consider an infant. As a person who believes in the rights of the child in an actual way (not in the way that those who support abortion will wield this point to act as evidence of their moral righteousness) then I must concede that at some point the fetus becomes a person, and a person has rights. But I think a fetus's right to life should supersede that of a woman's right to abortion in most scenarios. I lean closer to the belief that a fetus is a person before it is born, though this is a point that I could think over philosophically for quite a while and never feel that I've settled the question.",
+      "cos_margin": -0.13470271229743958,
+      "Delta_s": -0.035318635404109955,
+      "Delta_t": -0.09938407689332962,
+      "psi_S_norm_diff": 0.034014150500297546,
+      "utility_margin": -0.03662312030792236,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I don't think about abortion often except for when prompted. It makes me feel scared that some people might not have access to abortion services because abortion is a right.",
+      "match": "The idea that access to abortion might be restricted is alarming to me, as I firmly believe it is an essential right that should be protected.",
+      "distractor": "I don't think about abortion often except for when prompted. It makes me feel relieved that some people might not have access to abortion services because abortion is not a right.",
+      "cos_margin": 0.024951843544840813,
+      "Delta_s": -0.005711622070521116,
+      "Delta_t": 0.03066346561536193,
+      "psi_S_norm_diff": 0.014399632811546326,
+      "utility_margin": 0.002976388670504093,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "My belief comes from both moral and basic commonsense, it is hypocritical for people to support it and is just selfish and evil in nature in the eyes of god in my opinion.",
+      "match": "From a moral standpoint and using plain logic, endorsing this behavior is fundamentally wrong and reflects a lack of empathy and integrity, contrary to divine principles.",
+      "distractor": "My belief comes from both moral and basic commonsense, it is hypocritical for people to oppose it and is just selfless and virtuous in nature in the eyes of god in my opinion.",
+      "cos_margin": -0.051563818007707596,
+      "Delta_s": 0.005674548912793398,
+      "Delta_t": -0.057238366920500994,
+      "psi_S_norm_diff": -0.018652886152267456,
+      "utility_margin": -0.00730378832668066,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Abortions should be legal because it was not the wish of some people to get pregnant, some got pregnant through rapes other due to ignorance and also some not being aware they are pregnant making it unplanned.",
+      "match": "Individuals should have the right to choose whether to continue a pregnancy, especially in cases of sexual assault, lack of education, or unintentional conception.",
+      "distractor": "Abortions should not be legal because it was not the wish of some people to get pregnant, some got pregnant through rapes other due to ignorance and also some not being aware they are pregnant making it unplanned.",
+      "cos_margin": -0.014781929552555084,
+      "Delta_s": 0.02745932526886463,
+      "Delta_t": -0.042241254821419716,
+      "psi_S_norm_diff": -0.018075913190841675,
+      "utility_margin": 0.03684273734688759,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "Abortion should be legal, women should have the right, free will, and the option to have an abortion if they see fit. I believe that a person should be able to do whatever makes them happy or content, and if that means getting an abortion then it should be optional. I also think that society should facilitate a means for any rape victim that wishes to conduct an abortion.",
+      "match": "Women must retain autonomy over their bodies, including the choice to terminate a pregnancy. Personal happiness and agency are paramount, and if ending a pregnancy aligns with one's well-being, it must remain an available choice. Moreover, we must ensure that survivors of sexual violence have unimpeded access to abortion care if they choose it.",
+      "distractor": "Abortion should not be legal, women should not have the right, free will, and the option to have an abortion if they see fit. I believe that a person should not be able to do whatever makes them happy or content, and if that means getting an abortion then it should not be optional. I also think that society should not facilitate a means for any rape victim that wishes to conduct an abortion.",
+      "cos_margin": -0.00701427087187767,
+      "Delta_s": 0.0323052778840065,
+      "Delta_t": -0.03931954875588417,
+      "psi_S_norm_diff": -0.026384830474853516,
+      "utility_margin": 0.038225725293159485,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "How the only argument against it is rooted in religion, which has no place in politics. It's common sense.",
+      "match": "Policies should be based on rational and inclusive reasoning, avoiding religious justification that doesn\u2019t belong in legislative processes.",
+      "distractor": "How the only argument for it is rooted in religion, which has no place in politics. It's not common sense.",
+      "cos_margin": -0.13599619269371033,
+      "Delta_s": -0.002442610915750265,
+      "Delta_t": -0.13355358177796006,
+      "psi_S_norm_diff": -0.03378203511238098,
+      "utility_margin": -0.03866725694388151,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Illegal unless mother or child is in danger. I suppose if the mother was extremely young and it was rape or incest but I still have to say illegal.",
+      "match": "Abortion should generally be prohibited, except in cases where the life of the mother or child is at risk, or if the pregnancy is due to sexual violence or incest involving a very young girl.",
+      "distractor": "Illegal unless mother or child is in danger. I suppose if the mother was extremely young and it was rape or incest but I still have to say legal.",
+      "cos_margin": -0.11951974779367447,
+      "Delta_s": 0.021129410713911057,
+      "Delta_t": -0.14064915850758553,
+      "psi_S_norm_diff": -0.07623326778411865,
+      "utility_margin": -0.03397444635629654,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Abortions should be completely legal in all circumstances and the well-being of the mother should be prioritized. Abortions are a necessary tool for woman to enact agency over their wombs. They should be in control of whether or not they are bringing a child into this world, given all the conditions and things necessary for a child to thrive in this world. Abortions not only benefit woman, but also the potential child from living in potentially desolate conditions that they were never meant to.  ",
+      "match": "Ensuring that women have unrestricted access to abortion services is crucial for safeguarding their autonomy and health. Women must have the power to decide if they are ready to raise a child, considering the resources and environment required for a child\u2019s well-being. Access to abortion can prevent both women and children from facing adverse and challenging circumstances.",
+      "distractor": "Abortions should not be completely legal in all circumstances and the well-being of the mother should not be prioritized. Abortions are not a necessary tool for women to enact agency over their wombs. They should not be in control of whether or not they are bringing a child into this world, given all the conditions and things necessary for a child to thrive in this world. Abortions not only harm women, but also deprive the potential child from living in potentially desolate conditions that they were never meant to.",
+      "cos_margin": 0.014531990513205528,
+      "Delta_s": 0.0025601896923035383,
+      "Delta_t": 0.01197180082090199,
+      "psi_S_norm_diff": 0.013331577181816101,
+      "utility_margin": 0.018451956566423178,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "If I had to make a statement i think it should be illegal due to right to life. Most laws in terms of family are for the best interest of the child right now allowing aborition in all circumstances kills an unborn child. I think it should still be allowed in instances of rape, or in the best interest of the mothers health.",
+      "match": "The sanctity of life should be upheld, and abortion must be restricted to protect the unborn, except in cases where the mother's well-being is at serious risk or in situations involving sexual assault.",
+      "distractor": "If I had to make a statement I think it should be legal due to right to choice. Most laws in terms of family are for the best interest of the child, but right now allowing abortion in all circumstances protects a woman's autonomy. I think it should not be limited, even in instances of rape, or in the best interest of the mother's health.",
+      "cos_margin": -0.04058253765106201,
+      "Delta_s": 0.0744132399559021,
+      "Delta_t": -0.11499577760696411,
+      "psi_S_norm_diff": -0.10355497896671295,
+      "utility_margin": 0.04527150094509125,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I don't think about it or talk about it with other people because I don't have no reason to talk about it with others. I do not agree with it if I were to talk about it with others I would tell them so and that it should only be allowed in rare cases such as when the mothers life is in danger. ",
+      "match": "While I don't engage in conversations about it frequently, I believe it should be heavily restricted. In my view, it ought to be permissible only in exceptional circumstances, such as when the health of the mother is at serious risk.",
+      "distractor": "I think about it often and discuss it with other people because I have every reason to talk about it with others. I agree with it, and if I were to talk about it with others, I would tell them so, and that it should be allowed in all cases, not just when the mother's life is in danger.",
+      "cos_margin": 0.0717405378818512,
+      "Delta_s": 0.023495368659496307,
+      "Delta_t": 0.04824516922235489,
+      "psi_S_norm_diff": -0.030423849821090698,
+      "utility_margin": 0.016566887497901917,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "The conversation has come up, but it does not frequent my conversations. I am pro choice so I don't judge people who want to or don't want to get an abortion. I feel that pregnancy is an extremely person to the woman that is pregnant, it's her body, no one else has to go through the ups and downs of pregnancy. Women literally almost die giving birth, so I don't think the right to abort or not abort should be left up to anyone other than the mother that is pregnant. ",
+      "match": "The decision to terminate a pregnancy is intensely personal and should be left solely to the woman involved. The hardships and potential risks associated with carrying a pregnancy to term are experienced only by her, making it imperative that she has full autonomy over this choice. No external parties should impose their views on whether she continues or ends her pregnancy.",
+      "distractor": "The conversation has come up, but it does not frequent my conversations. I am pro-life so I don't judge people who want to or don't want to get an abortion. I feel that pregnancy is extremely personal to the woman that is pregnant, it's her body, but the life of the unborn child should also be considered. Women literally almost die giving birth, so I don't think the right to abort or not abort should be left up to anyone other than the unborn child\u2019s right to life.",
+      "cos_margin": -0.20542174577713013,
+      "Delta_s": -0.01646885834634304,
+      "Delta_t": -0.1889528874307871,
+      "psi_S_norm_diff": -0.025773704051971436,
+      "utility_margin": -0.058711420744657516,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "To be honest, I just feel like it seems \"right\" to support free access to abortion. When I was in middle and high school, we often read stories about women who had to use coat hangers to abort their babies. The amount of pain, suffering, and death that they went through just because abortions weren't legal was miserable to hear about. I understand some of the pro-life talking points, but it just doesn't make sense to try and revert back to those dangerous methods because they want a baby to potentially be born. One of the pro-life points they always make is that a baby can be put up for adoption, with some pro-life people arguing that they would take and raise a baby if a pro-choice person had it, or something like that. But then the adoption/foster care centers are still always full. That's foolish. So I guess a lot of my views come from what I learned in school and from seeing logical fallacies with pro-life people's arguments.",
+      "match": "Access to safe and legal abortion is crucial because it prevents the horrors of unsafe practices and respects women's autonomy. Historical accounts of women resorting to dangerous methods highlight the necessity of accessible reproductive health services. Despite arguments for adoption as an alternative, the current capacity of adoption systems is insufficient, and forcing women into unwanted pregnancies isn't a viable solution. My education and critical examination of opposing viewpoints have shaped my belief in prioritizing women's rights and safety.",
+      "distractor": "To be honest, I just feel like it seems 'right' to oppose free access to abortion. When I was in middle and high school, we often read stories about the value of life and how every child deserves a chance to be born. The amount of potential life lost due to legal abortions is distressing to think about. I understand some of the pro-choice talking points, but it just doesn't make sense to support a system that allows for the termination of potential life because they want the freedom of choice. One of the pro-choice points they always make is that a woman's choice is paramount, with some pro-choice people arguing that a baby can be put up for adoption if an unwanted pregnancy occurs. But then the adoption/foster care centers are still always full. That's foolish. So I guess a lot of my views come from what I learned in school and from seeing logical fallacies with pro-choice people's arguments.",
+      "cos_margin": -0.0470353364944458,
+      "Delta_s": 0.005354938097298145,
+      "Delta_t": -0.052390274591743946,
+      "psi_S_norm_diff": 0.004926770925521851,
+      "utility_margin": 0.01563664712011814,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I personally do not think abortion should be a viable option in almost every case. I will concede that for political reasons it would not be completely fair to society to impose my opinion to it's fullest extent. I'm willing to be comfortable with and understanding that some allowances should be in place. It should not be an easy decision and needs to be something that everyone understands the full weight and consequences of.",
+      "match": "In most circumstances, I oppose abortion as a choice. I acknowledge that it would be politically unreasonable to enforce my belief entirely, so I'm open to allowing certain exceptions. The decision should be approached with gravity, ensuring everyone comprehends its serious repercussions.",
+      "distractor": "I personally do think abortion should be a viable option in almost every case. I will concede that for political reasons it would not be completely fair to society to impose my opinion to its fullest extent. I'm willing to be comfortable with and understanding that some restrictions should be in place. It should be an easy decision and needs to be something that everyone understands the full weight and consequences of.",
+      "cos_margin": -0.04347485676407814,
+      "Delta_s": 0.004891735501587391,
+      "Delta_t": -0.04836659226566553,
+      "psi_S_norm_diff": -0.010997369885444641,
+      "utility_margin": -0.0012138988822698593,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I am against abortion.  I feel that abortions should not be done.  I also know that I am not the person to decide if and when someone else would want to get one.  I know that there are situations that woman would feel the need, whether they were violate by a man or some medical reason.  I feel that the medical community should be they ones to decide on this policy and not the self serving hypocritical out of touch politicians. ",
+      "match": "While I personally oppose abortion, I recognize that the decision should ultimately lie with the individual and their healthcare providers, not politicians. In cases of assault or health risks, it is crucial to leave the choice to those directly affected, guided by medical expertise rather than political agendas.",
+      "distractor": "I am in favor of abortion. I feel that abortions should be done. I also know that I am the person to decide if and when someone else would want to get one. I know that there are situations that women would not feel the need, whether they were not violated by a man or have no medical reason. I feel that politicians should be the ones to decide on this policy and not the medical community.",
+      "cos_margin": -0.009202532470226288,
+      "Delta_s": 0.0066443984396755695,
+      "Delta_t": -0.015846930909901857,
+      "psi_S_norm_diff": -0.015904203057289124,
+      "utility_margin": -0.0026154061779379845,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think abortion should be illegal.  Simply put killing another human individual is illegal and I believe a baby in utero has already qualified itself as a human person even if they haven't been born and processed as a legal person yet.",
+      "match": "I strongly believe that the rights of the unborn should take precedence, as life starts at conception. Therefore, terminating a pregnancy is equivalent to taking a life and should be prohibited.",
+      "distractor": "I think abortion should be legal. Simply put, killing another human individual is illegal, but I believe a baby in utero has not yet qualified itself as a human person even if they haven't been born and processed as a legal person yet.",
+      "cos_margin": 0.013111505657434464,
+      "Delta_s": 0.04627048224210739,
+      "Delta_t": -0.03315897658467293,
+      "psi_S_norm_diff": -0.033657193183898926,
+      "utility_margin": 0.05888377130031586,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think abortion should be legal in all cases. It is fundamentally wrong to force a woman to carry a baby within her body. That's her body and her right to not produce a baby, doesn't matter how the pregnancy happened. There are no circumstances my answer depends on. It should be legal in every single case. ",
+      "match": "The right of a woman to make decisions regarding her own pregnancy should be absolute and unfettered. Compelling someone to continue a pregnancy is an infringement on personal freedom, regardless of the situation in which conception occurred. Every woman should have access to safe and legal abortion services without exception.",
+      "distractor": "I think abortion should be illegal in all cases. It is fundamentally wrong not to force a woman to carry a baby within her body. That's her body and her obligation to produce a baby, doesn't matter how the pregnancy happened. There are no circumstances my answer depends on. It should be illegal in every single case.",
+      "cos_margin": 0.050741009414196014,
+      "Delta_s": 0.027502449229359627,
+      "Delta_t": 0.023238560184836388,
+      "psi_S_norm_diff": 0.05160842835903168,
+      "utility_margin": 0.10661332681775093,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think of other people's access to it often, since it is a fairly hot-button issue in politics and I firmly believe anyone who wants an abortion should be able to access one. I have discussed it with other people and received various reactions, but I am firm on my stance. ",
+      "match": "Access to abortion services should be available to all individuals who seek it. Despite the controversy surrounding the topic, I remain resolute in my belief that personal choice in reproductive health is essential. Conversations with others have shown me diverse viewpoints, but my conviction remains strong.",
+      "distractor": "I think of other people's access to it often, since it is a fairly hot-button issue in politics and I firmly believe no one who wants an abortion should be able to access one. I have discussed it with other people and received various reactions, but I am firm on my stance.",
+      "cos_margin": -0.006368657574057579,
+      "Delta_s": 0.008679523132741451,
+      "Delta_t": -0.01504818070679903,
+      "psi_S_norm_diff": 0.005856513977050781,
+      "utility_margin": 0.023215560242533684,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I believe abortion should mostly be illegal accept in the most dire of circumstances, because it is murder and morally wrong.  If the mother's health is in jeopardy, if the mother is too young to carry the baby to term, or if it isn't a baby but cancerous cells, then I think it should be accept and legal for the mother to get an abortion.  In short, it should only be illegal when it's a life or death situation- and for no other reason. ",
+      "match": "I think abortion is essentially equivalent to taking a life and should generally be prohibited due to its ethical implications. However, exceptions should be made in severe cases such as threats to the mother's health, extreme youth of the mother, or medical anomalies that aren't viable pregnancies. Therefore, abortion should only be permitted in situations where it is absolutely necessary to save a life.",
+      "distractor": "I believe abortion should mostly be legal except in the most dire of circumstances, because it is a personal choice and morally acceptable. If the mother's health is in jeopardy, if the mother is too young to carry the baby to term, or if it isn't a baby but cancerous cells, then I think it should be illegal and unacceptable for the mother to get an abortion. In short, it should only be legal when it's a life or death situation - and for no other reason.",
+      "cos_margin": -0.06351101398468018,
+      "Delta_s": -0.009615261107683182,
+      "Delta_t": -0.053895752876996994,
+      "psi_S_norm_diff": -0.0011581778526306152,
+      "utility_margin": -0.02038870006799698,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "As stated, I'm a nurse by trade. I know about healthcare concerns such as etopic pregnancies. Prior to becoming a nurse I thought the same way. I learned about the unfortunate subject of rape early in my life & could never fathom having to raise a child in such a situation. I just figure, make the option available; if they decide not to use it, ok. If they do, by all means, that's your decision. ",
+      "match": "Working in healthcare has shown me the complexities of situations like ectopic pregnancies and the trauma associated with rape. It's crucial to provide choices to women, allowing them to make decisions that align with their personal circumstances, whether they choose to proceed with a pregnancy or not.",
+      "distractor": "As stated, I'm a nurse by trade. I know about healthcare concerns such as ectopic pregnancies. Prior to becoming a nurse I thought the same way. I learned about the unfortunate subject of rape early in my life & could never fathom having to raise a child in such a situation. I just figure, make the option unavailable; if they decide not to use it, ok. If they do, by all means, that's not your decision.",
+      "cos_margin": -0.08405418694019318,
+      "Delta_s": 0.007000366225838661,
+      "Delta_t": -0.09105455316603184,
+      "psi_S_norm_diff": -0.04246188700199127,
+      "utility_margin": -0.02846115455031395,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "A situation where I am not sure if abortion would be appropriate or not would be in the case of the baby's condition. This kind of situation makes abortion borderline because, on the one hand, one would think that it would be unfair and inhumane to carry a baby to full term knowing the quality of life it would have would be extremely negative, and on the other hand considering that a life is a life no matter the quality and we do not get to decide their fate despite any/all of these factors. There is a very thin line between morality and humanity, quality of life and life period.  ",
+      "match": "Deciding on abortion when a fetus has a severe condition is incredibly complex. It's a struggle between wanting to prevent a life of suffering and recognizing that every life has its own intrinsic value, regardless of potential hardships. This delicate ethical balance challenges our views on life and morality.",
+      "distractor": "A situation where I am not sure if abortion would be appropriate or not would be in the case of the baby's condition. This kind of situation makes abortion borderline because, on the one hand, one would think that it would be unfair and inhumane to carry a baby to full term knowing the quality of life it would have would be extremely negative, and on the other hand considering that a life is a life no matter the quality and we do not get to decide their fate despite any/all of these factors. Therefore, carrying the pregnancy to term respects the inherent value of life itself.",
+      "cos_margin": -0.11929906159639359,
+      "Delta_s": -0.024264100939035416,
+      "Delta_t": -0.09503496065735817,
+      "psi_S_norm_diff": -0.0007602423429489136,
+      "utility_margin": -0.049288444221019745,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "It just seems like the logical decision. Based off stories and opinions of those impacted",
+      "match": "Listening to firsthand accounts from those affected, it's evident this is the most sensible path forward.",
+      "distractor": "It just seems like the illogical decision. Based off stories and opinions of those impacted",
+      "cos_margin": 0.018899694085121155,
+      "Delta_s": -0.002832133090123534,
+      "Delta_t": 0.02173182717524469,
+      "psi_S_norm_diff": 0.026640936732292175,
+      "utility_margin": 0.020976670552045107,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "From my personal belief that life begins at conception. Also due to the fact that it is easily preventable when not desired as an outcome.",
+      "match": "I hold the view that human life starts at the moment of conception, which leads me to advocate for proactive measures to avoid unintended pregnancies.",
+      "distractor": "From my personal belief that life does not begin at conception. Also due to the fact that it is not easily preventable when not desired as an outcome.",
+      "cos_margin": 0.013446575030684471,
+      "Delta_s": 0.0068412404507398605,
+      "Delta_t": 0.006605334579944611,
+      "psi_S_norm_diff": -0.010313823819160461,
+      "utility_margin": 0.0033686570823192596,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think abortion should be illegal in most circumstances. I feel the only circumstances in which abortion should be legal is when the pregnancy is dangerous to the mother, meaning risk or certain death for the mother, or if the quality of life of the baby would be such that it would suffer inhumanely.",
+      "match": "The sanctity of life should be preserved, and terminating a pregnancy should be heavily restricted. Exceptions should be made only if the mother's life is at significant risk or if the child would be born into severe suffering.",
+      "distractor": "I think abortion should be legal in most circumstances. I feel the only circumstances in which abortion should be illegal is when the pregnancy is not dangerous to the mother, meaning no risk or certain death for the mother, or if the quality of life of the baby would be such that it would not suffer inhumanely.",
+      "cos_margin": -0.04507363960146904,
+      "Delta_s": 0.050963737070560455,
+      "Delta_t": -0.0960373766720295,
+      "psi_S_norm_diff": -0.034769415855407715,
+      "utility_margin": 0.0671580582857132,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I dont ever discuss as not important. ",
+      "match": "I believe it's best to avoid conversations on this topic because it doesn't hold much significance to me.",
+      "distractor": "I often discuss as extremely important.",
+      "cos_margin": -0.1415175497531891,
+      "Delta_s": -0.011222697794437408,
+      "Delta_t": -0.13029485195875168,
+      "psi_S_norm_diff": -0.020217224955558777,
+      "utility_margin": -0.042662620544433594,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I am pro-choice when it comes to abortion because a woman's reproductive rights are nobody else's business.  Society should agree upon the point at which a fetus can feel pain based on sound research and restrict the right to most abortions to a couple of weeks before that time.  Exceptions should always be made in cases where the mother's life is at risk or when a sexual crime has been committed against the woman carrying the fetus.",
+      "match": "Women should have the autonomy to make decisions about their pregnancies without outside interference. It's crucial to base abortion laws on scientific findings about fetal pain, ensuring restrictions are set well before this stage. Protections must remain for instances of maternal health risks or sexual violence.",
+      "distractor": "I am pro-life when it comes to abortion because a woman's reproductive rights should be everyone else's business. Society should agree upon the point at which a fetus can feel pain based on sound research and restrict the right to most abortions to a couple of weeks after that time. Exceptions should never be made, even in cases where the mother's life is at risk or when a sexual crime has been committed against the woman carrying the fetus.",
+      "cos_margin": -0.10003465414047241,
+      "Delta_s": -0.0028105571400374174,
+      "Delta_t": -0.097224097000435,
+      "psi_S_norm_diff": -0.005347549915313721,
+      "utility_margin": -0.010968664195388556,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Honestly recently I think the topic has been on my mind a little bit more often, especially with the presidential debates going on. It is a hot topic on a lot of people's minds. Abortion kind of makes me feel uncomfortable. I do not necessarily believe in abortion for myself, however I think to each their own.  ",
+      "match": "I've been contemplating the issue more frequently, particularly with the ongoing political discussions. While it's a significant concern for many, I personally feel uneasy about abortion. It's not an option I would choose for myself, but I respect others' rights to make their own decisions.",
+      "distractor": "Honestly recently I think the topic has been on my mind a little bit more often, especially with the presidential debates going on. It is a hot topic on a lot of people's minds. Abortion kind of makes me feel comfortable. I do necessarily believe in abortion for myself, however I think it should be avoided by everyone.",
+      "cos_margin": -0.013123955577611923,
+      "Delta_s": -0.0020776086021214724,
+      "Delta_t": -0.01104634697549045,
+      "psi_S_norm_diff": 0.0038947314023971558,
+      "utility_margin": -0.00026048580184578896,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I think that abortions should be legal in all circumstances. Society should completely legalize abortion. my reason for this is because a woman\u2019s body is her own and it should be her choice what she does with it.",
+      "match": "The decision to terminate a pregnancy should rest solely with the individual, as bodily autonomy is a fundamental right. Therefore, access to abortion services must be unrestricted and protected in every situation.",
+      "distractor": "I think that abortions should be illegal in all circumstances. Society should completely ban abortion. My reason for this is because a woman\u2019s body is her own and it should be her choice what she does with it.",
+      "cos_margin": 0.02419251576066017,
+      "Delta_s": 0.0327797494828701,
+      "Delta_t": -0.00858723372220993,
+      "psi_S_norm_diff": 0.007460415363311768,
+      "utility_margin": 0.07301991432905197,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I am a believer of Jesus Christ. As a believer, my beliefs are according to the Word of God. The bible is clearly against murder and abortion fits into this category.  ",
+      "match": "My faith in Jesus and the teachings of Christianity lead me to value the sanctity of life. Therefore, I view abortion as fundamentally wrong because it involves taking a life.",
+      "distractor": "I am a believer of Jesus Christ. As a believer, my beliefs are according to the Word of God. The bible is clearly against murder, but abortion does not fit into this category.",
+      "cos_margin": -0.07105817645788193,
+      "Delta_s": -0.012376380153000355,
+      "Delta_t": -0.05868179630488157,
+      "psi_S_norm_diff": 0.004343554377555847,
+      "utility_margin": -0.020409205928444862,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Lack of caution and proper protective procedures to avoid pregnancy.\r\n\r\nToo far along, many months, into the pregnancy.",
+      "match": "Proper measures to prevent unintended pregnancies are crucial. Once a pregnancy is well-established, it's often too late to consider alternatives.",
+      "distractor": "Lack of caution and proper protective procedures should not always be a concern to avoid pregnancy. Early stages of pregnancy, just a few months in, should be prioritized.",
+      "cos_margin": 0.07994022965431213,
+      "Delta_s": 0.010281180031597614,
+      "Delta_t": 0.06965904962271452,
+      "psi_S_norm_diff": 0.03948614001274109,
+      "utility_margin": 0.06004850007593632,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think it should be illegal. If a mother does something reckless while pregnant she could be in trouble. If you kill a pregnant woman you could be charged with a double homicide. If people want incest and rape cases of abortion to be legal I could probably understand, my circumstances depend on common sense. ",
+      "match": "The potential criminalization of actions taken by expectant mothers raises substantial concerns, especially when considering the legal implications of harming a pregnant woman. While exceptions for cases involving incest or rape might warrant special consideration, generally, the reasoning must be based on rational judgment.",
+      "distractor": "I think it should be legal. If a mother does something reckless while pregnant she would not be in trouble. If you kill a pregnant woman you would not be charged with a double homicide. If people oppose incest and rape cases of abortion being legal I could probably understand, my circumstances depend on common sense.",
+      "cos_margin": -0.04540709778666496,
+      "Delta_s": 0.02885618433356285,
+      "Delta_t": -0.07426328212022781,
+      "psi_S_norm_diff": -0.0255851149559021,
+      "utility_margin": 0.0321272537112236,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I believe society should leave decisions surrounding abortions up to those whom it affects. If it doesn't concern you, then I think you should stay out of it because abortion is a traumatizing and isolating experience enough without the added judgement and legality. I support this policy because there are instances, such as rape or a teenage pregnancy, where having a baby is more detrimental to the mother and potentially the future of that child and no one can better determine the circumstances than the mother herself.",
+      "match": "The decision to terminate a pregnancy should rest solely with the individual facing it, free from external interference. Given the emotional and psychological challenges involved, it is crucial to respect personal autonomy, particularly in complex situations like sexual assault or when a young person's future is at risk. It's imperative to trust women to make the best choice for themselves and their potential offspring without societal or legal pressure.",
+      "distractor": "I believe society should take decisions surrounding abortions out of the hands of those whom it affects. If it doesn't concern you, then I think you should have a say in it because abortion is a traumatizing and isolating experience enough without leaving it to personal whims. I oppose this policy because there are instances, such as rape or a teenage pregnancy, where having a baby is beneficial to the mother and potentially the future of that child and society can better determine the circumstances than the mother herself.",
+      "cos_margin": -0.06945151090621948,
+      "Delta_s": -0.009916420094668865,
+      "Delta_t": -0.05953509081155062,
+      "psi_S_norm_diff": -0.0009010285139083862,
+      "utility_margin": -0.020733868703246117,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "A situation where abortion would not be appropriate would be a late term abortion because of a birth defect that could affect the quality of life of the fetus upon delivery. This situation would be borderline because the fetus would be almost fully formed, and the birth defect would only affect the fetus, not the mother. I still think even in this circumstance it is the mother's decision to continue the pregnancy or terminate.",
+      "match": "When it comes to late-term pregnancies, where a fetus might be impacted by severe health issues, I believe the final choice should reside with the woman. Despite the complexities involved when the fetus nears full development, the decision to either proceed or end the pregnancy should remain solely with her.",
+      "distractor": "A situation where abortion would not be appropriate would be a late term abortion because of a birth defect that could affect the quality of life of the fetus upon delivery. This situation would be borderline because the fetus would be almost fully formed, and the birth defect would only affect the fetus, not the mother. I think in this circumstance it is not the mother's decision to continue the pregnancy or terminate.",
+      "cos_margin": -0.136384978890419,
+      "Delta_s": -0.0459565743803978,
+      "Delta_t": -0.09042840451002121,
+      "psi_S_norm_diff": 0.02877223491668701,
+      "utility_margin": -0.06314091384410858,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "As I said- rape, incest, young victim.. Mother's life or baby's in danger-- possibly\r\n\r\n",
+      "match": "In situations involving rape, incest, or when the victim is very young, or if there are life-threatening risks to the mother or child, I believe exceptions are necessary.",
+      "distractor": "As I said - rape, incest, young victim.. Mother's life or baby's in danger-- probably not",
+      "cos_margin": -0.08431923389434814,
+      "Delta_s": 0.007536192424595356,
+      "Delta_t": -0.0918554263189435,
+      "psi_S_norm_diff": -0.04552118480205536,
+      "utility_margin": -0.030448799952864647,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "Although myself and friends are not affected directly by abortion currently, I often think about that we could have been in the past, and thus it remains a topic of interest to me.  I infrequently discuss with others, but frequently read online about developments.  The topic is very contentious, and can be upsetting, since it highly affects people in need of healthcare provided by abortion.",
+      "match": "The issue of abortion doesn't impact me or my friends directly at the moment, but its potential past impact keeps it relevant for me. I rarely engage in dialogues about it, yet I stay updated on the latest news online. It's a deeply divisive subject that can be distressing due to its significant implications for those requiring abortion services for their health.",
+      "distractor": "Although myself and friends are not affected directly by abortion currently, I often think about that we could have been in the past, and thus it remains a topic of disinterest to me. I infrequently discuss with others, but frequently read online about developments. The topic is very contentious, and can be comforting, since it hardly affects people in need of healthcare provided by abortion.",
+      "cos_margin": -0.02657579630613327,
+      "Delta_s": -0.005324426107108593,
+      "Delta_t": -0.021251370199024677,
+      "psi_S_norm_diff": 0.006662726402282715,
+      "utility_margin": -0.003986125811934471,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "i think it should be legal",
+      "match": "People should have the freedom and right to engage in this activity without legal repercussions",
+      "distractor": "i think it should not be legal",
+      "cos_margin": -0.03470441699028015,
+      "Delta_s": 0.012294621206820011,
+      "Delta_t": -0.04699903819710016,
+      "psi_S_norm_diff": 0.001987561583518982,
+      "utility_margin": 0.026576803997159004,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I taLK about the topic when we hear it on the news. We share our opinion with eachother.",
+      "match": "Whenever the subject comes up in the news, we discuss it openly and exchange our thoughts.",
+      "distractor": "I taLK about the topic when we hear it on the news. We avoid sharing our opinion with eachother.",
+      "cos_margin": -0.0002533169463276863,
+      "Delta_s": -0.009423429146409035,
+      "Delta_t": 0.009170112200081348,
+      "psi_S_norm_diff": 0.020357638597488403,
+      "utility_margin": 0.0015107803046703339,
+      "cos_correct": 0,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I rarely think and talk about abortion. I feel indifferent towards the topic.",
+      "match": "The subject of abortion doesn't often cross my mind, and I don't have strong feelings about it.",
+      "distractor": "I often think and talk about abortion. I feel strongly engaged with the topic.",
+      "cos_margin": 0.16072899103164673,
+      "Delta_s": 0.03015086241066456,
+      "Delta_t": 0.13057812862098217,
+      "psi_S_norm_diff": -0.008159369230270386,
+      "utility_margin": 0.05214235559105873,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I think abortion should be treated at best, a necessary evil. The fact that it is celebrated by aspects of our society is horrific. We should make efforts to limit abortion by addressing the scenarios that make people seek it out and continue those efforts until we can eliminate it as much as we can, while safeguarding the life of the mother.",
+      "match": "Abortion is a complex issue that should not be glorified. It is crucial to minimize its occurrence by addressing root causes and circumstances that lead to it. Our aim should be to reduce the need for abortion significantly, ensuring the mother's health is protected throughout.",
+      "distractor": "I think abortion should be celebrated as a fundamental right. The fact that it is treated by some in our society as horrific is concerning. We should make efforts to ensure access to abortion by supporting the scenarios that lead people to seek it out and continue those efforts until we can expand it as much as we can, while safeguarding the life of the mother.",
+      "cos_margin": 0.032026223838329315,
+      "Delta_s": 0.03290713205933571,
+      "Delta_t": -0.0008809082210063934,
+      "psi_S_norm_diff": -0.027739211916923523,
+      "utility_margin": 0.038075052201747894,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "A situation where I'm not sure if abortion is appropriate is when the pregnancy is far along and the fetus could potentially survive outside the womb. This scenario is complex because it involves balancing the rights and health of the mother with the potential viability of the fetus. T",
+      "match": "In late-term pregnancies, the decision to terminate is particularly challenging due to the fetus nearing a stage where it might live independently. Here, the mother's health and autonomy must be carefully weighed against the fetus's chance of survival.",
+      "distractor": "A situation where I'm not sure if abortion is inappropriate is when the pregnancy is far along and the fetus could potentially survive outside the womb. This scenario is simple because it involves prioritizing the rights and health of the mother over the potential viability of the fetus.",
+      "cos_margin": -0.05125679448246956,
+      "Delta_s": -0.01966266520321369,
+      "Delta_t": -0.03159412927925587,
+      "psi_S_norm_diff": 0.023534521460533142,
+      "utility_margin": -0.01579080894589424,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I grew up in a very liberal city in the Bay Area of California, which greatly influenced how I view social issues. My parents taught me to be accepting of those who are different than myself and to reach for empathy before judgment. Many of my friends have expressed fear of pregnancy and the overwhelming idea of having to raise a human being for a minimum of eighteen years. I know people who have sought abortion and the relief they feel being rid of a life-altering responsibility they are not prepared for is one of the reasons I believe having options is important. Reading news stories of teenagers and women with health issues being forced through dangerous, painful pregnancies has also had a massive impact on my opinion. ",
+      "match": "Growing up in a progressive environment in California shaped my views on social matters, instilling in me the importance of empathy and open-mindedness. I've witnessed friends express anxiety over unintended pregnancies and the daunting prospect of parenthood, and I've seen the sense of freedom some experience when choosing not to continue a pregnancy. These observations, along with stories of individuals facing risky pregnancies, reinforce my belief in the necessity of reproductive rights and options.",
+      "distractor": "I grew up in a very liberal city in the Bay Area of California, which greatly influenced how I view social issues. My parents taught me to be accepting of those who are different than myself and to reach for empathy before judgment. Many of my friends have expressed fear of pregnancy and the overwhelming idea of having to raise a human being for a minimum of eighteen years. I know people who have sought abortion and the relief they feel being rid of a life-altering responsibility they are not prepared for is one of the reasons I believe having options is not important. Reading news stories of teenagers and women with health issues being forced through dangerous, painful pregnancies has also not had a massive impact on my opinion.",
+      "cos_margin": -0.007274420000612736,
+      "Delta_s": -0.0022508990950882435,
+      "Delta_t": -0.005023520905524492,
+      "psi_S_norm_diff": 0.000993385910987854,
+      "utility_margin": -0.003508412279188633,
+      "cos_correct": 0,
+      "utility_correct": 0
+    },
+    {
+      "anchor": "I believe society should make abortions legal. They can regulate it and make rules and also keep it safe. People should be allowed to make there own decisions on what to do with their own body.",
+      "match": "Individuals deserve the autonomy to decide on matters affecting their personal health, so it's crucial that abortion remains a legal and accessible option, governed by safety standards to protect those who choose to undergo the procedure.",
+      "distractor": "I believe society should make abortions illegal. They can regulate it and make rules and also keep it safe. People should not be allowed to make their own decisions on what to do with their own body.",
+      "cos_margin": 0.047434911131858826,
+      "Delta_s": 0.040218546986579895,
+      "Delta_t": 0.007216364145278931,
+      "psi_S_norm_diff": -0.011757075786590576,
+      "utility_margin": 0.06868001818656921,
+      "cos_correct": 1,
+      "utility_correct": 1
+    },
+    {
+      "anchor": "I am of the opinion that, in most cases, abortion should be illegal. For me, the chance to live is very dear; it would be morally wrong to take away the life of an unborn, voiceless, innocent being. Society should give precedence to the protection of these lives and uphold laws that speak of the sanctity of life. Exceptions should only be made when the mother's life is considerably at risk, but these need to be reviewed in a proper balancing of ethical considerations.",
+      "match": "I strongly believe that terminating a pregnancy ought to be prohibited in most circumstances. The opportunity for life is invaluable, and ending it for an unborn child, who cannot speak for itself and who is entirely blameless, is ethically unacceptable. We must prioritize safeguarding these lives and maintain legislation that affirms their intrinsic value. Only when a mother's health is severely threatened should exceptions be contemplated, and even then, they must be carefully weighed against moral imperatives.",
+      "distractor": "I am of the opinion that, in most cases, abortion should be legal. For me, the chance to live is very dear; it would be morally wrong to take away the right of a woman to choose. Society should give precedence to the protection of women's autonomy and uphold laws that speak of the sanctity of personal decision. Exceptions should only be made when the mother's life is considerably at risk, but these need to be reviewed in a proper balancing of ethical considerations.",
+      "cos_margin": 0.015985578298568726,
+      "Delta_s": 0.04862028360366821,
+      "Delta_t": -0.03263470530509949,
+      "psi_S_norm_diff": -0.04101920127868652,
+      "utility_margin": 0.0562213659286499,
+      "cos_correct": 1,
+      "utility_correct": 1
+    }
+  ]
+}

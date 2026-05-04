@@ -1,0 +1,57 @@
+{
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "gen_model": "sonnet_standalone_prompt",
+  "condition": "political",
+  "selection": "diverse_2000",
+  "seed": 42,
+  "hyperparams": {
+    "lr": 0.000125,
+    "max_steps": 62,
+    "batch_size": 16,
+    "lora_r": 16,
+    "lora_alpha": 48,
+    "hard_ratio": 1.0,
+    "hard_cap": 1000,
+    "temperature": 1.0
+  },
+  "val_metrics": {
+    "gsc_abortion_gen": 0.6017094017094017,
+    "gsc_abortion_val": 0.5770799347471451,
+    "gsc_chatbot_gen": 0.5900783289817232,
+    "remesh_campus_protests": 0.6187301792764223,
+    "remesh_foreign_intervention": 0.5913670712159377,
+    "remesh_right_to_assemble": 0.652729324851221,
+    "polis_15_per_hour_seattle": 0.5595065312046444,
+    "polis_american_assembly_bowling_green": 0.5472616343196223,
+    "polis_brexit_consensus": 0.49676165803108807,
+    "polis_canadian_electoral_reform": 0.561349972672618,
+    "polis_scoop_hivemind_ubi": 0.7378792618079449
+  },
+  "test_metrics": {
+    "gsc_abortion_gen": 0.524904214559387,
+    "gsc_abortion_val": 0.5598491988689915,
+    "gsc_chatbot_gen": 0.5414201183431953,
+    "remesh_campus_protests": 0.6069899051697767,
+    "remesh_foreign_intervention": 0.5933946940985382,
+    "remesh_right_to_assemble": 0.6806622965641953,
+    "polis_15_per_hour_seattle": 0.6352657004830918,
+    "polis_american_assembly_bowling_green": 0.5779576100161649,
+    "polis_brexit_consensus": 0.5357142857142857,
+    "polis_canadian_electoral_reform": 0.5952551263710062,
+    "polis_scoop_hivemind_ubi": 0.6058091286307054
+  },
+  "all_metrics": {
+    "gsc_abortion_gen": 0.5780141843971631,
+    "gsc_abortion_val": 0.5718758895530885,
+    "gsc_chatbot_gen": 0.5751811594202898,
+    "remesh_campus_protests": 0.6152394379007685,
+    "remesh_foreign_intervention": 0.5919697457354361,
+    "remesh_right_to_assemble": 0.6614502470007058,
+    "polis_15_per_hour_seattle": 0.5879419764279239,
+    "polis_american_assembly_bowling_green": 0.5539898664237073,
+    "polis_brexit_consensus": 0.5113452188006483,
+    "polis_canadian_electoral_reform": 0.5760353196323453,
+    "polis_scoop_hivemind_ubi": 0.6967477923756192
+  },
+  "hard_eval_accuracy": 0.6
+}

@@ -1,0 +1,21 @@
+{
+  "model": "BAAI/bge-large-en-v1.5",
+  "hf_id": "BAAI/bge-large-en-v1.5",
+  "split": "all",
+  "formatter": "prefix(q='Represent this sentence for searching relevant passages: ', p='')",
+  "metrics": {
+    "gsc_abortion_gen": 0.6465721040189125,
+    "gsc_abortion_val": 0.5945,
+    "gsc_chatbot_gen": 0.5652173913043478,
+    "remesh_campus_protests": 0.6245,
+    "remesh_foreign_intervention": 0.576,
+    "remesh_right_to_assemble": 0.68,
+    "polis_15_per_hour_seattle": 0.541704442429737,
+    "polis_american_assembly_bowling_green": 0.555,
+    "polis_brexit_consensus": 0.5325,
+    "polis_canadian_electoral_reform": 0.5295,
+    "polis_scoop_hivemind_ubi": 0.663
+  },
+  "hard_acc": 0.06285714285714286,
+  "hard_n": 875
+}
