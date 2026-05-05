@@ -4,19 +4,17 @@
 Eleven small panels, six on the top row and five centered beneath. Each
 panel plots test accuracy vs. labels-per-topic K for one dataset, with
 two horizontal reference lines per panel:
-  * base ST5-XL cosine (from the data-efficiency JSON's `cos_test`)
-  * DPT-tuned ST5-XL cosine, mean over the 5 seeds of cross_model_sweep
-    (data/models/best/sentence_transformers_sentence_t5_xl/seed*/results.json
-     → test_metrics[dataset]).
+  * base ST5-XL cosine, hard-coded from Tab 4 / Tab 12 (paper_tables.tex
+    tab:full-main, ST5-XL row).
+  * DPT-tuned ST5-XL cosine, hard-coded from Tab 4 / Tab 12 (ST5-XL+DPT
+    row, mean over 5 seeds).
 
 Physical width matches NeurIPS \\textwidth (5.5 in) so that text rendered
 through LaTeX with mathptmx scales 1:1 with the body font (Times Roman,
 10pt body / 9pt small).
 """
 import argparse
-import glob
 import json
-import statistics
 import sys
 from pathlib import Path
 
@@ -47,12 +45,42 @@ SHORT = {
 }
 PANEL_KEYS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]
 
+# Per-dataset base and DPT-tuned ST5-XL cosine accuracy, hard-coded from
+# Tab 4 / Tab 12 (paper_tables.tex tab:full-main, ST5-XL row and ST5-XL+DPT
+# row). Pinned here so the figure's reference lines match the paper's
+# headline numbers regardless of any local participant-split or seed
+# differences in data_efficiency.json.
+BASE_ACC = {
+    "gsc_abortion_gen":                       81.1,
+    "gsc_abortion_val":                       70.5,
+    "gsc_chatbot_gen":                        69.7,
+    "remesh_campus_protests":                 65.8,
+    "remesh_foreign_intervention":            61.1,
+    "remesh_right_to_assemble":               69.9,
+    "polis_15_per_hour_seattle":              60.7,
+    "polis_american_assembly_bowling_green":  57.6,
+    "polis_brexit_consensus":                 56.4,
+    "polis_canadian_electoral_reform":        55.5,
+    "polis_scoop_hivemind_ubi":               69.2,
+}
+TUNED_ACC = {
+    "gsc_abortion_gen":                       81.8,
+    "gsc_abortion_val":                       76.4,
+    "gsc_chatbot_gen":                        65.9,
+    "remesh_campus_protests":                 67.5,
+    "remesh_foreign_intervention":            65.6,
+    "remesh_right_to_assemble":               69.5,
+    "polis_15_per_hour_seattle":              69.8,
+    "polis_american_assembly_bowling_green":  65.1,
+    "polis_brexit_consensus":                 68.4,
+    "polis_canadian_electoral_reform":        62.5,
+    "polis_scoop_hivemind_ubi":               61.9,
+}
+
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", default="data/results/data_efficiency.json")
-    ap.add_argument("--tuned-seed-dir",
-                    default="data/models/best/sentence_transformers_sentence_t5_xl")
     ap.add_argument("--output",
                     default="figures/fig5_data_efficiency.pdf")
     args = ap.parse_args()
@@ -71,22 +99,16 @@ def main():
 
     d = json.load(open(args.input))
     k_grid = d["k_grid"]
-    base_cos, curves = {}, {}
+    curves = {}
     for ds in EVAL_DATASETS:
         if ds not in d["results"]: continue
-        base_cos[ds] = d["results"][ds]["cos_test"]
         by_k = {c["K"]: c["mean_test"] for c in d["results"][ds]["curve"]}
         xs = [k for k in k_grid if k in by_k]
         ys = [by_k[k] for k in xs]
         curves[ds] = (xs, ys)
 
-    # Per-dataset DPT-tuned cosine, mean over 5 seeds of cross_model_sweep.
-    seed_files = sorted(glob.glob(f"{args.tuned_seed_dir}/seed*/results.json"))
-    per_ds = {}
-    for f in seed_files:
-        for ds, v in json.load(open(f)).get("test_metrics", {}).items():
-            per_ds.setdefault(ds, []).append(v)
-    tuned_cos = {ds: statistics.mean(vs) for ds, vs in per_ds.items() if vs}
+    base_cos  = BASE_ACC
+    tuned_cos = TUNED_ACC
 
     # Layout: 6 panels on top, 5 centered beneath. Each panel = 2 mosaic cells.
     mosaic = """
@@ -118,10 +140,10 @@ AABBCCDDEEFF
         h_curve, = ax.plot(xs, [y * 100 for y in ys],
                            color=line_color, linewidth=1.0, marker="o", markersize=2.0)
         if ds in base_cos:
-            h_base = ax.axhline(base_cos[ds] * 100,
+            h_base = ax.axhline(base_cos[ds],
                                 color=base_color, linestyle="--", linewidth=0.7)
         if ds in tuned_cos:
-            h_tuned = ax.axhline(tuned_cos[ds] * 100,
+            h_tuned = ax.axhline(tuned_cos[ds],
                                  color=tuned_color, linestyle=":", linewidth=0.9)
         ax.set_xscale("log")
         ax.set_title(SHORT[ds], pad=2)

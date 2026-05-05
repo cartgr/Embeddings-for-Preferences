@@ -1,0 +1,27 @@
+# Git LFS patterns for large paper artifacts.
+#
+# Evaluation triplets (one JSONL per dataset; polis_bowling_green ~1.1 GB).
+data/processed/eval/*.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# Synthetic training triplets (sonnet_standalone_prompt set ~50 MB).
+data/processed/triplets/**/triplets.jsonl filter=lfs diff=lfs merge=lfs -text
+data/processed/triplets/hard_*.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# LLM-generated opinions (~20 MB).
+data/processed/opinions/**/opinions.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# Trained model adapters and tokenizer artifacts.
+data/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+data/models/**/*.bin          filter=lfs diff=lfs merge=lfs -text
+data/models/**/*.pt           filter=lfs diff=lfs merge=lfs -text
+data/models/**/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+
+# PSD probe weight matrices (small; still nicer via LFS).
+data/results/psd_probe_weights/*.npy filter=lfs diff=lfs merge=lfs -text
+
+# Reference ensure-normalized line endings on text files.
+*.jsonl -text
+*.json  text
+*.py    text
+*.tex   text
+*.md    text

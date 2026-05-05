@@ -197,7 +197,7 @@ def run_one_encoder(encoder_path, datasets, hard_by_ds, paths, seed, device):
                    "val_acc": val, "hp": hp}
         log.info(f"  {ds}: ip={ip:+.3f} norm_diff={nd:+.3f} n={n}")
     del model
-    if device.type == "cuda":
+    if device == "cuda":
         torch.cuda.empty_cache()
     return out
 

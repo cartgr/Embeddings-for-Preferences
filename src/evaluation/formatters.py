@@ -186,10 +186,9 @@ _DISPATCH = [
     ("mixedbread-ai/mxbai-",            lambda: PrefixFormatter(query_prefix=BGE_QUERY_INSTRUCTION, passage_prefix="")),
     # SparseCL/BGE-SparseCL: authors' own eval is plain-encoded
     # (https://github.com/xuhaike/SparseCL test_contradiction_faiss_final.py).
-    # NOTE: the released checkpoint has no SBERT modules.json; default
-    # SentenceTransformer loading falls back to CLS pooling, while the
-    # paper trains with mean pooling. If results look off, force avg
-    # pooling explicitly when loading this model.
+    # Note: the released checkpoint has no SBERT modules.json. SentenceTransformer
+    # wraps it with default mean pooling, which matches the paper's training-time
+    # `--pooler_type avg`. Verified.
     ("sparsecl/bge-",                   lambda: PlainFormatter()),
     # Instruction-tuned 1.5B encoders
     ("alibaba-nlp/gte-qwen2",           lambda: QwenInstructFormatter()),
