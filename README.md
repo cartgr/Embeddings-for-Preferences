@@ -19,9 +19,9 @@ cp .env.template .env                  # add OPENAI_API_KEY, ANTHROPIC_API_KEY
 python tests/smoke_test.py
 ```
 
-Python 3.11+, CUDA 12.x. SLURM wrappers in `scripts/slurm/` target FASRC
-Cannon — edit the `#SBATCH` headers and `module load` block for other
-clusters; the underlying Python is portable.
+Python 3.11+, CUDA 12.x. SLURM wrappers in `scripts/slurm/` are written for
+one specific cluster — edit the `#SBATCH` headers and `module load` block
+for your environment; the underlying Python is portable.
 
 ## Reproduce
 

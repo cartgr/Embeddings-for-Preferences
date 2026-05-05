@@ -1,1 +1,1 @@
-# Info-Theoretic Preference Elicitation
+# Preference Embeddings

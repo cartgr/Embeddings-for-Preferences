@@ -10,7 +10,7 @@
 module load python/3.12.5-fasrc01 cuda/12.4.1-fasrc01
 export PATH="$HOME/.conda/envs/elicitation/bin:$PATH"
 
-cd /n/home11/cblair/Info-Theoretic-Preference-Elicitation
+cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p logs
 
 # StanceAware-SBERT is a LoRA adapter on all-mpnet-base-v2, so it needs

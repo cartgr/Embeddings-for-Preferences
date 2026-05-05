@@ -2,8 +2,8 @@
 
 `make experiments` runs every experiment sequentially. On a SLURM
 cluster, prefer the per-experiment wrappers below — they parallelize
-across the queue and have appropriate `#SBATCH` headers for FASRC Cannon
-(`gpu_test` / `gpu_requeue`).
+across the queue. The `#SBATCH` headers and partition names assume one
+specific cluster; edit them for your environment.
 
 ## Per-experiment slurm wrappers
 

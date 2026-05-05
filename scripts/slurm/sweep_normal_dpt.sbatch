@@ -24,7 +24,7 @@ export PATH="$HOME/.conda/envs/elicitation/bin:$PATH"
 # total live tensors are well under capacity.
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-cd /n/home11/cblair/Info-Theoretic-Preference-Elicitation
+cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p logs
 
 MODEL="sentence-transformers/sentence-t5-xl"
