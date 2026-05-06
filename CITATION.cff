@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite as below."
-title: "Preference Embeddings"
+title: "Embeddings for Preferences, Not Semantics"
 type: software
 authors:
   - family-names: Anonymous
     given-names: ""
 preferred-citation:
   type: conference-paper
-  title: "Preference Embeddings"
+  title: "Embeddings for Preferences, Not Semantics"
   authors:
     - family-names: Anonymous
       given-names: ""
