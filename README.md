@@ -10,10 +10,10 @@ counterfactual hard triplets.
 ## Install
 
 ```bash
-git clone https://github.com/<org>/preference-embeddings.git
-cd preference-embeddings
+git clone https://github.com/<org>/embeddings-for-preferences.git
+cd embeddings-for-preferences
 git lfs install && git lfs pull        # ~20 GB
-conda env create -f environment.yml && conda activate preference-embeddings
+conda env create -f environment.yml && conda activate embeddings-for-preferences
 # (or: python -m venv .venv && source .venv/bin/activate && pip install -e .)
 cp .env.template .env                  # add OPENAI_API_KEY, ANTHROPIC_API_KEY
 python tests/smoke_test.py

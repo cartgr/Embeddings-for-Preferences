@@ -1,4 +1,4 @@
-name: preference-embeddings
+name: embeddings-for-preferences
 channels:
   - pytorch
   - nvidia

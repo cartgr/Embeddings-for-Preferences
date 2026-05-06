@@ -112,6 +112,40 @@ def _load_lora_model(model_path: Path, device: str = None) -> SentenceTransforme
     # Replace the transformer in the SentenceTransformer
     model[0].auto_model = peft_model
 
+    # Load any other trained module weights saved alongside the adapter
+    # (e.g. 2_Dense/model.safetensors). Sentence-T5 / similar models include
+    # a trained Dense projection that lives outside the LoRA-wrapped
+    # transformer, and was saved separately during training. Without this
+    # the loader silently uses the BASE encoder's untrained Dense head.
+    from safetensors.torch import load_file
+    modules_json = model_path / "modules.json"
+    if modules_json.exists():
+        with open(modules_json) as f:
+            modules_meta = json.load(f)
+        for entry in modules_meta:
+            sub_path = entry.get("path", "")
+            if not sub_path:
+                continue  # idx 0 (the Transformer) lives at root, handled above
+            sub_dir = model_path / sub_path
+            if not sub_dir.is_dir():
+                continue
+            sf = sub_dir / "model.safetensors"
+            pt = sub_dir / "pytorch_model.bin"
+            weights = None
+            if sf.exists():
+                weights = load_file(str(sf))
+            elif pt.exists():
+                import torch as _torch
+                weights = _torch.load(str(pt), map_location="cpu")
+            if weights is None:
+                continue
+            module_idx = entry.get("idx")
+            if module_idx is None:
+                continue
+            sub_module = list(model._modules.values())[module_idx]
+            sub_module.load_state_dict({k: v.to(device) for k, v in weights.items()}, strict=False)
+            logger.info(f"Loaded trained weights for {sub_path}")
+
     return model
 
 

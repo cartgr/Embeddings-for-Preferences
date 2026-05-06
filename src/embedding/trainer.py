@@ -380,7 +380,7 @@ class TrainingConfig:
     seed: int = 42
     use_amp: bool = True  # Automatic mixed precision
     use_wandb: bool = True  # Enable wandb logging
-    wandb_project: str = "preference-embeddings"
+    wandb_project: str = "embeddings-for-preferences"
     logging_steps: int = 50  # Log every N steps
     eval_steps: int = 500  # Evaluate every N steps
     max_steps: int = -1  # Max training steps (-1 = use epochs)
