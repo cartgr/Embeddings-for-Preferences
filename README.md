@@ -1,6 +1,6 @@
 # Embeddings for Preferences, Not Semantics
 
-Code and data for *Embeddings for Preferences, Not Semantics* (Submitted to NeurIPS).
+Code and data for the paper [*Embeddings for Preferences, Not Semantics*](https://arxiv.org/abs/2605.08360).
 
 We learn a sentence embedding whose distances reflect **preferential**
 similarity — the probability that a user who agrees with one text agrees
