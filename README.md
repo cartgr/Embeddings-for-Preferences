@@ -2,6 +2,8 @@
 
 Code and data for the paper [*Embeddings for Preferences, Not Semantics*](https://arxiv.org/abs/2605.08360).
 
+The trained model is available on [HuggingFace](https://huggingface.co/cartgr/embeddings-for-preferences-st5-xl).
+
 We learn a sentence embedding whose distances reflect **preferential**
 similarity — the probability that a user who agrees with one text agrees
 with nearby texts — rather than semantic similarity, by fine-tuning on
